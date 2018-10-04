@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<component type="desktop-application">
+<id>hotpotatoes</id>
+<metadata_license>CC0-1.0</metadata_license>
+<name>HotPotatoes</name>
+<summary>ODE to create interactive activities in HTML</summary>
+<summary xml:lang="es">ODE de creación de actividades interactivas en formato HTML</summary>
+<summary xml:lang="ca_ES.UTF-8@valencia">ODE de creació d'activitats interactives en format HTML</summary>
+<summary xml:lang="ca_ES@valencia">ODE de creació d'activitats interactives en format HTML</summary>
+<description>
+<p>ODE to create interactive activities in HTML format such as crossword puzzles, pairing exercises, questions and answers and others</p>
+<p xml:lang="es">ODE de creación de actividades interactivas en formato HTML como por ejemplo crucigramas, ejercicios de emparejamiento, preguntas y respuestas y otros</p>
+<p xml:lang="ca_ES@valencia">ODE de creació d'activitats interactives en format HTML, per exemple, mots encreuats, exercicis d'aparellament, preguntes i respostes, etc.</p>
+<p xml:lang="ca_ES.UTF-8@valencia">ODE de creació d'activitats interactives en format HTML, per exemple, mots encreuats, exercicis d'aparellament, preguntes i respostes, etc.</p>
+</description>
+<categories>
+<category>Creation</category>
+<category>ODE</category>
+
+</categories>
+<icon type="stock">hotpotatoes</icon>
+<provides><binary>/usr/bin/hotpotatoes</binary></provides>
+<keywords>
+<keyword>HotPotatoes</keyword>
+<keyword>actividades</keyword>
+<keyword>activitats</keyword>
+<keyword>html</keyword>
+<keyword>ODE</keyword>
+
+</keywords>
+<developer_name>Lliurex Team</developer_name>
+<name xml:lang="ca_ES.UTF-8@valencia">HotPotatoes</name>
+</component>

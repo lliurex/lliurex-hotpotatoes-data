@@ -1,0 +1,99 @@
+#!/bin/bash
+
+prefs_file=/home/$USER/Library/Preferences/com.halfbakedsoftware/hotpot6prefs.xml
+interface_path=/usr/share/hotpotatoes/interface
+config_path=/usr/share/hotpotatoes/config
+original_prefs=/usr/share/hotpotatoes/hotpot6prefs.xml
+user_conf_path=/home/$USER/config
+user_interface_path=/home/$USER/interface
+
+
+conf_option="none"
+int_option="none"
+
+langs="es_ES.utf8 es_ES.UTF-8"
+
+langs_val="ca_ES.UTF-8@valencia"
+
+
+#### Comprobando idioma del sistema y configurando el script en base a ello...
+
+rm $prefs_file
+
+echo  $langs | grep $LANG && rc=0 || rc=1
+echo  $langs_val | grep $LANG && rc_v=0 || rc_v=1
+
+if [ "$rc" = 0 ]
+then
+	#echo "Configuracion en español"
+	#echo "Instalando..."
+	interface_file=$interface_path/espanol6.xml
+	config_file=$config_path/espanol6.cfg
+	user_conf_file=$user_conf_path/espanol6.cfg
+	user_interface_file=$user_interface_path/espanol6.xml
+	conf_option="espanol6"
+	int_option="espanol6"
+
+elif [ "$rc_v" = 0 ]
+then
+	#echo "Configuracion en valenciano"
+	#echo "Instalando..."
+	interface_file=$interface_path/valencian.xml
+	config_file=$config_path/valencian.cfg
+	user_conf_file=$user_conf_path/valencian.cfg
+	user_interface_file=$user_interface_path/valencian.xml
+	conf_option="valencian"
+	int_option="valencian"
+	export LANG=ca_ES.utf-8
+else
+	#echo "English configuration"
+	#echo "Installing..."
+	interface_file=$interface_path/JHP6English.xml
+	config_file=$config_path/English6.cfg
+	user_conf_file=$user_conf_path/English6.cfg
+	user_interface_file=$user_interface_path/JHP6English.xml
+	conf_option="English6"
+	int_option="JHP6English"
+fi
+
+############################
+
+#### Comprobando existencia de archivos ...
+
+if [ ! -f $prefs_file ]
+then 
+	#echo "Creando archivo de preferencias..."
+	cat $original_prefs | sed -e "s/__@__user__@__/$USER/g" -e "s/__@__interface-language__@__/$int_option/g" -e "s/__@__config-language__@__/$conf_option/g" > /tmp/hotpot6prefs.xml
+	mkdir -p /home/$USER/Library/Preferences/com.halfbakedsoftware/
+	cp /tmp/hotpot6prefs.xml $prefs_file
+	rm /tmp/hotpot6prefs.xml
+fi
+
+if [ ! -f $user_conf_file ]
+then 
+	#echo "Copiando archivo de configuracion de lenguaje... $config_file"
+	mkdir -p $user_conf_path
+	cp $config_file $user_conf_file
+fi
+
+
+if [ ! -f $user_interface_file ]
+then 
+	#echo "Creando archivo de lenguaje de interface... $interface_file"
+	mkdir -p $user_interface_path
+	cp $interface_file $user_interface_file
+fi
+
+
+
+
+
+#################################
+
+#### Ejecutando hotpot6.jar desde subdirectorio...
+cd /usr/share/hotpotatoes/
+java -jar /usr/share/hotpotatoes/JavaHotPotatoes6.app/Contents/Resources/Java/hotpot6.jar
+
+
+
+

@@ -1,0 +1,2270 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<hotpot-interface-file>
+  <java>
+    <version>6</version>
+    <windows>
+      <pnl-shared-main>
+        <lbl-exercise-title>
+          <value>Títol de l'exercici</value>
+        </lbl-exercise-title>
+      </pnl-shared-main>
+      <buttonbar-shared-main>
+        <btn-new-data>
+          <tooltip>Exercici nou</tooltip>
+        </btn-new-data>
+        <btn-open-data>
+          <tooltip>Obri exercici</tooltip>
+        </btn-open-data>
+        <btn-save-data>
+          <tooltip>Guarda dades</tooltip>
+        </btn-save-data>
+        <btn-save-as-data>
+          <tooltip>Anomena i guarda dades</tooltip>
+        </btn-save-as-data>
+        <btn-reading>
+          <tooltip>Afig text de lectura</tooltip>
+        </btn-reading>
+        <btn-make-exercise>
+          <tooltip>Fa un exercici estàndard</tooltip>
+        </btn-make-exercise>
+        <btn-cut>
+          <tooltip>Retalla la selecció</tooltip>
+        </btn-cut>
+        <btn-copy>
+          <tooltip>Copia la selecció</tooltip>
+        </btn-copy>
+        <btn-paste>
+          <tooltip>Apegar la selecció</tooltip>
+        </btn-paste>
+        <btn-delete>
+          <tooltip>Esborra la selecció</tooltip>
+        </btn-delete>
+        <btn-select-all>
+          <tooltip>Selecciona tot</tooltip>
+        </btn-select-all>
+        <btn-insert-image>
+          <tooltip>Inserix una imatge</tooltip>
+        </btn-insert-image>
+        <btn-insert-link>
+          <tooltip>Inserix un enllaç</tooltip>
+        </btn-insert-link>
+        <btn-show-config>
+          <tooltip>Mostra la finestra de configuració</tooltip>
+        </btn-show-config>
+        <btn-help>
+          <tooltip>Ajuda</tooltip>
+        </btn-help>
+      </buttonbar-shared-main>
+      <pnl-jquiz-specific>
+        <btn-question-arrow-up>
+          <tooltip>Puja en la llista</tooltip>
+        </btn-question-arrow-up>
+        <btn-question-arrow-down>
+          <tooltip>Baixa en la llista</tooltip>
+        </btn-question-arrow-down>
+        <lbl-question>
+          <value>Q</value>
+        </lbl-question>
+        <tf-question-num>
+          <tooltip>Número de pregunta actual</tooltip>
+        </tf-question-num>
+        <ta-jquiz-question>
+          <tooltip>Introduïu ací la pregunta</tooltip>
+        </ta-jquiz-question>
+        <cmbx-question-type>
+          <tooltip>Trieu el tipus de pregunta</tooltip>
+        </cmbx-question-type>
+        <lbl-question-weight>
+          <value>Pes</value>
+        </lbl-question-weight>
+        <tf-question-weight>
+          <tooltip>Introduïu el pes per a la pregunta (0-100)</tooltip>
+        </tf-question-weight>
+        <btn-question-weight-arrow-up>
+          <tooltip>Feu clic per a augmentar el pes de la pregunta</tooltip>
+        </btn-question-weight-arrow-up>
+        <btn-question-weight-arrow-down>
+          <tooltip>Feu clic per a disminuir el pes de la pregunta</tooltip>
+        </btn-question-weight-arrow-down>
+        <btn-answer-arrow-up>
+          <tooltip>Feu clic per a pujar en la llista de respostes</tooltip>
+        </btn-answer-arrow-up>
+        <lbl-answers-header>
+          <value>Resposta</value>
+        </lbl-answers-header>
+        <lbl-feedback-header>
+          <value>Comentaris</value>
+        </lbl-feedback-header>
+        <lbl-settings-header>
+          <value>Configuració</value>
+        </lbl-settings-header>
+        <btn-answer-arrow-down>
+          <tooltip>Feu clic per a baixar en la llista de respostes</tooltip>
+        </btn-answer-arrow-down>
+        <ta-answer>
+          <tooltip>Introduïu ací una respuesta per a esta pregunta</tooltip>
+        </ta-answer>
+		<ta-feedback>
+          <tooltip>Introduïu el text dels comentaris a esta resposta ací.</tooltip>
+        </ta-feedback>
+        <cb-accept-as-correct>
+          <value>Accepta com a correct</value>
+          <tooltip>Feu clic per a acceptar esta resposta com a correcta</tooltip>
+        </cb-accept-as-correct>
+        <tf-pct>
+          <tooltip>Introduïu el tant per cent de valoració (0 - 100)</tooltip>
+        </tf-pct>
+        <btn-pct-arrow-up>
+          <tooltip>Feu clic per a augmentar-lo</tooltip>
+        </btn-pct-arrow-up>
+        <btn-pct-arrow-down>
+          <tooltip>Feu clic per a disminuir-lo</tooltip>
+        </btn-pct-arrow-down>
+        <cb-include-in-mc>
+          <value>Inclou-la en l'elecció múltiple</value>
+          <tooltip>Marqueu-la per a incloure esta resposta en elecció múltiple per a preguntes híbrides</tooltip>
+        </cb-include-in-mc>
+      </pnl-jquiz-specific>
+      <pnl-jcloze-specific>
+        <lbl-jcloze-exercise-text>
+          <value>Text de l'exercici JCloze</value>
+        </lbl-jcloze-exercise-text>
+        <btn-jcloze-gap>
+          <value>Crea buits</value>
+          <tooltip>Feu clic per a convertir en buit el text seleccionat</tooltip>
+        </btn-jcloze-gap>
+        <btn-jcloze-un-gap>
+          <value>Elimina un buit</value>
+          <tooltip>Feu clic per a convertir el buit seleccionat en text normal</tooltip>
+        </btn-jcloze-un-gap>
+        <btn-jcloze-show-words>
+          <value>Mostra paraules</value>
+          <tooltip>Feu clic per a introduir una pista o respostes correctes alternatives</tooltip>
+        </btn-jcloze-show-words>
+        <btn-jcloze-gap-auto>
+          <value>Buits automàtics</value>
+          <tooltip>Feu clic per a crear buits automàticament cada n paraules</tooltip>
+        </btn-jcloze-gap-auto>
+        <btn-jcloze-un-gap-all>
+          <value>Elimina els buits</value>
+          <tooltip>Feu clic per a eliminar tots els buits d'este exercici</tooltip>
+        </btn-jcloze-un-gap-all>
+      </pnl-jcloze-specific>
+      <wd-jcloze-more>
+        <wd-jcloze-more-title>
+          <value>Detalls dels buits</value>
+        </wd-jcloze-more-title>
+        <btn-gap-num-up>
+          <tooltip>Feu clic per a pujar en la llista de buits</tooltip>
+        </btn-gap-num-up>
+        <btn-gap-num-down>
+          <tooltip>Feu clic per a baixar en la llista de buits</tooltip>
+        </btn-gap-num-down>
+        <lbl-gap-num>
+          <value>Buit</value>
+        </lbl-gap-num>
+        <tf-gap-num>
+          <tooltip>Número de buit</tooltip>
+        </tf-gap-num>
+        <lbl-gap-word>
+          <value>Paraula</value>
+        </lbl-gap-word>
+        <tf-gap-word>
+          <tooltip>Paraula principal de resposta a este buit</tooltip>
+        </tf-gap-word>
+        <lbl-gap-clue>
+          <value>Pista</value>
+        </lbl-gap-clue>
+        <tf-gap-clue>
+          <tooltip>Introduïu ací una pista per a este buit</tooltip>
+        </tf-gap-clue>
+        <btn-gap-alt-num-up>
+          <tooltip>Feu clic per a pujar en la llista de respostes alternatives a este buit</tooltip>
+        </btn-gap-alt-num-up>
+        <btn-gap-alt-num-down>
+          <tooltip>Feu clic per a baixar en la llista de respostes alternatives a este buit</tooltip>
+        </btn-gap-alt-num-down>
+        <lbl-gap-alt-title>
+          <value>Paraules correctes alternatives:</value>
+        </lbl-gap-alt-title>
+        <lbl-gap-alt-num>
+          <value>1</value>
+        </lbl-gap-alt-num>
+        <tf-gap-alt-num>
+          <tooltip>Número d'esta resposta alternativa</tooltip>
+        </tf-gap-alt-num>
+        <btn-jcloze-more-close>
+          <tooltip>Tanca esta finestra</tooltip>
+        </btn-jcloze-more-close>
+      </wd-jcloze-more>
+      <pnl-jcross-main>
+        <btn-jcross-show-clues>
+          <value>Mostra la finestra de pistes</value>
+          <tooltip>Mostra la finestra de pistes</tooltip>
+        </btn-jcross-show-clues>
+        <btn-jcross-chars-up>
+          <tooltip>Feu clic per a moure els caràcters una fila més cap amunt</tooltip>
+        </btn-jcross-chars-up>
+        <btn-jcross-chars-left>
+          <tooltip>Feu clic per a moure els caràcters una columna més cap a l'esquerra</tooltip>
+        </btn-jcross-chars-left>
+        <btn-jcross-chars-right>
+          <tooltip>Feu clic per a moure els caràcters una columna més cap a la dreta</tooltip>
+        </btn-jcross-chars-right>
+        <btn-jcross-chars-down>
+          <tooltip>Feu clic per a moure els caràcters una fila més cap avall</tooltip>
+        </btn-jcross-chars-down>
+      </pnl-jcross-main>
+      <wd-jcross-more>
+        <wd-jcross-more-title>
+          <value>Pistes de JCross</value>
+        </wd-jcross-more-title>
+        <lbl-jcross-across>
+          <value>Horitzontals</value>
+        </lbl-jcross-across>
+        <lbl-jcross-down>
+          <value>Verticals</value>
+        </lbl-jcross-down>
+        <btn-jcross-more-close>
+          <tooltip>Tanca esta finestra</tooltip>
+        </btn-jcross-more-close>
+      </wd-jcross-more>
+      <wd-jcross-auto-grid>
+        <wd-jcross-auto-grid-title>
+          <value>JCross: crea una quadrícula a partir de paraules</value>
+        </wd-jcross-auto-grid-title>
+        <lbl-auto-grid-max>
+          <value>Nombre màxim de files i columnes: </value>
+        </lbl-auto-grid-max>
+        <tf-auto-grid-max>
+          <tooltip>Grandària màxima de la quadrícula</tooltip>
+        </tf-auto-grid-max>
+        <btn-auto-grid-max-up>
+          <tooltip>Feu clic per a augmentar a la grandària màxima</tooltip>
+        </btn-auto-grid-max-up>
+        <btn-auto-grid-max-down>
+          <tooltip>Feu clic per a disminuir la grandària màxima</tooltip>
+        </btn-auto-grid-max-down>
+        <lbl-auto-grid-word-list>
+          <value>Introduïu cada paraula en una línia diferent</value>
+        </lbl-auto-grid-word-list>
+        <tf-auto-grid-word-list>
+          <tooltip>Introduïu cada paraula en una línia diferent</tooltip>
+        </tf-auto-grid-word-list>
+        <btn-auto-grid-make-grid>
+          <value>Forma una quadrícula</value>
+          <tooltip>Intenta crear una quadrícula a partir de la llista de paraules</tooltip>
+        </btn-auto-grid-make-grid>
+        <btn-auto-grid-stop>
+          <value>Para la creació de la quadrícula</value>
+          <tooltip>Deté l'intent de crear la quadrícula</tooltip>
+        </btn-auto-grid-stop>
+        <lbl-auto-grid-status>
+          <value>Procés de creació de la quadrícula:</value>
+        </lbl-auto-grid-status>
+        <tf-auto-grid-status>
+          <tooltip>Informe de l'estat de creació de la quadrícula</tooltip>
+        </tf-auto-grid-status>
+        <btn-jcross-auto-grid-apply>
+          <value>Aplica</value>
+          <tooltip>Feu clic per a aplicar la quadrícula</tooltip>
+        </btn-jcross-auto-grid-apply>
+        <btn-jcross-auto-grid-close>
+          <tooltip>Tanca esta finestra</tooltip>
+        </btn-jcross-auto-grid-close>
+      </wd-jcross-auto-grid>
+      <pnl-jmatch-specific>
+        <lbl-num-col-head>
+          <value>Element</value>
+        </lbl-num-col-head>
+        <lbl-left-col-head>
+          <value>Esquerra (fixos)</value>
+        </lbl-left-col-head>
+        <lbl-right-col-head>
+          <value>Dreta (elegibles)</value>
+        </lbl-right-col-head>
+        <lbl-fix-col-head>
+          <value>Fixar</value>
+        </lbl-fix-col-head>
+        <ta-left>
+          <tooltip>Introduïu el valor de la columna de l'esquerra per a este parell</tooltip>
+        </ta-left>
+        <ta-right>
+          <tooltip>Introduïu el valor de la columna de la dreta per a este parell</tooltip>
+        </ta-right>
+        <cb-fix>
+          <tooltip>Marqueu per a fixar la posició de les dos parts d'este parell</tooltip>
+        </cb-fix>
+        <lbl-right-default>
+          <value>Valor predeterminat de la columna de la dreta:</value>
+        </lbl-right-default>
+		<btn-item-up-arrow>
+          <tooltip>Feu clic per a moure la llista cap amunt.</tooltip>
+        </btn-item-up-arrow>
+        <btn-item-down-arrow>
+          <tooltip>Feu clic per a moure la llista cap avall.</tooltip>
+        </btn-item-down-arrow>
+        <ta-right-default>
+          <tooltip>Introduïu el text predeterminat en els menús desplegables</tooltip>
+        </ta-right-default>
+      </pnl-jmatch-specific>
+      <pnl-jmix-main>
+        <btn-item-up-arrow>
+          <tooltip>Feu clic per a moure la llista cap amunt.</tooltip>
+        </btn-item-up-arrow>
+        <btn-item-down-arrow>
+          <tooltip>Feu clic per a moure la llista cap avall.</tooltip>
+        </btn-item-down-arrow>
+        <lbl-main-sentence>
+          <value>Frase principal</value>
+        </lbl-main-sentence>
+        <lbl-alt-sentences>
+          <value>Frases alternatives</value>
+        </lbl-alt-sentences>
+        <ta-main-sentence>
+          <tooltip>Introduïu el text de la frase principal, cada element en una línia diferent</tooltip>
+        </ta-main-sentence>
+        <ta-alt-sentence>
+          <tooltip>Introduïu frases alternatives, la frase completa en una línia</tooltip>
+        </ta-alt-sentence>
+        <cb-alt-sentence-warn>
+          <value>Aviva'm si la frase alternativa no utilitza totes les paraules de la principal</value>
+          <tooltip>Avisa'm si la frase alternativa no utilitza totes les paraules de la principal</tooltip>
+        </cb-alt-sentence-warn>
+      </pnl-jmix-main>
+	  <wd-config-shared>
+        <lbl-exercise-subtitle>
+          <value>Subtítol de l'exercici</value>
+        </lbl-exercise-subtitle>
+        <ta-exercise-subtitle>
+          <tooltip>Introduïu el subtítol de l'exercici</tooltip>
+        </ta-exercise-subtitle>
+        <lbl-instructions>
+          <value>Instruccions</value>
+        </lbl-instructions>
+        <ta-instructions>
+          <tooltip>Introduïu les instruccions de l'exercici</tooltip>
+        </ta-instructions>
+        <lbl-correct-indicator>
+          <value>Indicador de correcte</value>
+        </lbl-correct-indicator>
+        <tf-correct-indicator>
+          <tooltip>Introduïu un o dos caràcters per a indicar correcte</tooltip>
+        </tf-correct-indicator>
+        <lbl-incorrect-indicator>
+          <value>Indicador d'incorrecte</value>
+        </lbl-incorrect-indicator>
+        <tf-incorrect-indicator>
+          <tooltip>Introduïu un o dos caràcters per a indicar incorrecte</tooltip>
+        </tf-incorrect-indicator>
+        <lbl-your-score-is>
+          <value>Indicador La teua puntuació és</value>
+        </lbl-your-score-is>
+        <tf-your-score-is>
+          <tooltip>Text per a introduir la puntuació de l'alumne o l'alumna</tooltip>
+        </tf-your-score-is>
+        <lbl-guess-correct>
+          <value>Avís d'encert</value>
+        </lbl-guess-correct>
+        <tf-guess-correct>
+          <tooltip>Text per a indicar que la resposta és correcta</tooltip>
+        </tf-guess-correct>
+        <lbl-guess-incorrect>
+          <value>Avís d'error</value>
+        </lbl-guess-incorrect>
+        <tf-guess-incorrect>
+          <tooltip>Text per a indicar que la resposta és incorrecta</tooltip>
+        </tf-guess-incorrect>
+        <lbl-correct-first-time>
+          <value>Preguntes amb resposta correcta a la primera</value>
+        </lbl-correct-first-time>
+        <tf-correct-first-time>
+          <tooltip>Text per a introduir el nombre de preguntes encertades a la primera</tooltip>
+        </tf-correct-first-time>
+        <lbl-next-correct-letter>
+          <value>Següent lletra correcta en la resposta</value>
+        </lbl-next-correct-letter>
+        <tf-next-correct-letter>
+          <tooltip>Text per a introduir l'ajuda (següent lletra correcta)</tooltip>
+        </tf-next-correct-letter>
+        <cb-next-exercise-caption>
+          <value>Text en el botó Següent exercici</value>
+          <tooltip>Marqueu-lo per a incloure el botó per a passar a l'exercici següent</tooltip>
+        </cb-next-exercise-caption>
+        <tf-next-exercise-caption>
+          <tooltip>Introduïu el text per al botó que dóna accés a l'exercici següent</tooltip>
+        </tf-next-exercise-caption>
+        <tf-next-exercise-caption-url>
+          <tooltip>Introduïu el camí relatiu o URL absolut de la pàgina següent</tooltip>
+        </tf-next-exercise-caption-url>
+        <btn-next-exercise-caption-url>
+          <tooltip>Feu clic per a triar el camí relatiu a la pàgina següent</tooltip>
+        </btn-next-exercise-caption-url>
+        <cb-index-caption>
+          <value>Text en el botó Índex</value>
+          <tooltip>Marqueu-lo per a incloure un botó per a anar a la pàgina principal</tooltip>
+        </cb-index-caption>
+        <tf-index-caption>
+          <tooltip>Introduïu el text del botó per a anar a la pàgina principal</tooltip>
+        </tf-index-caption>
+        <tf-index-caption-url>
+          <tooltip>Introduïu el camí relatiu o URL absolut a la pàgina principal</tooltip>
+        </tf-index-caption-url>
+        <btn-index-caption-url>
+          <tooltip>Introduïu el text del botó per a anar a la pàgina principal</tooltip>
+        </btn-index-caption-url>
+        <cb-back-caption>
+          <value>Text en el botó Anterior</value>
+          <tooltip>Marqueu-lo per a incloure un botó per a anar a la página anterior</tooltip>
+        </cb-back-caption>
+        <tf-back-caption>
+          <tooltip>Introduïu el text del botó per a anar a la pàgina anterior</tooltip>
+        </tf-back-caption>
+        <lbl-check-caption>
+          <value>Text en el botó Comprova</value>
+        </lbl-check-caption>
+        <tf-check-caption>
+          <tooltip>Introduïu el text del botó que comprova les respostes</tooltip>
+        </tf-check-caption>
+        <lbl-ok-caption>
+          <value>Text en el botó D'acord</value>
+        </lbl-ok-caption>
+        <tf-ok-caption>
+          <tooltip>Introduïu el text per al botó D'acord</tooltip>
+        </tf-ok-caption>
+        <cb-hint-caption>
+          <value>Text del botó Ajuda</value>
+          <tooltip>Marqueu-lo per a incloure un botó que mostre l'ajuda</tooltip>
+        </cb-hint-caption>
+        <tf-hint-caption>
+          <tooltip>Introduïu el text per al botó que mostra l'ajuda</tooltip>
+        </tf-hint-caption>
+        <lbl-graphic-url>
+          <value>Imatge de fons</value>
+        </lbl-graphic-url>
+        <tf-graphic-url>
+          <tooltip>Introduïu el camí relatiu o URL absolut de la imatge de fons</tooltip>
+        </tf-graphic-url>
+        <btn-graphic-url-url>
+          <tooltip>Feu clic per a triar el camí relatiu de la imatge de fons</tooltip>
+        </btn-graphic-url-url>
+        <lbl-font-face>
+          <value>Tipus de lletra en la pàgina de l'exercici</value>
+        </lbl-font-face>
+        <tf-font-face>
+          <tooltip>Introduïu el tipus de lletra que voleu que mostre el navegador en la pàgina</tooltip>
+        </tf-font-face>
+        <lbl-font-size>
+          <value>Grandària de la lletra en la pàgina de l'exercici</value>
+        </lbl-font-size>
+        <tf-font-size>
+          <tooltip>Introduïu la grandària de la lletra que voleu que mostre el navegador en la pàgina</tooltip>
+        </tf-font-size>
+        <lbl-colourable-page-elements>
+          <value>Colors dels elements de la pàgina</value>
+        </lbl-colourable-page-elements>
+        <lbl-preview-appearance>
+          <value>Aparença preliminar</value>
+        </lbl-preview-appearance>
+        <lbl-page-bg-color>
+          <value>Color de fons de la pàgina</value>
+        </lbl-page-bg-color>
+        <tf-page-bg-color>
+          <tooltip>Introduïu el color de fons de la pàgina (#nnnnnn)</tooltip>
+        </tf-page-bg-color>
+        <btn-page-bg-color>
+          <tooltip/>
+        </btn-page-bg-color>
+        <lbl-title-color>
+          <value>Color del títol</value>
+        </lbl-title-color>
+        <tf-title-color>
+          <tooltip>Introduïu el color del text del títol (#nnnnnn)</tooltip>
+        </tf-title-color>
+        <btn-title-color>
+          <tooltip>Feu clic per a triar el color del text del títol</tooltip>
+        </btn-title-color>
+        <lbl-ex-bg-color>
+          <value>Color de fons de l'exercici</value>
+        </lbl-ex-bg-color>
+        <tf-ex-bg-color>
+          <tooltip>Introduïu el color per al fons de l'exercici (#nnnnnn)</tooltip>
+        </tf-ex-bg-color>
+        <btn-ex-bg-color>
+          <tooltip>Feu clic per a triar el color de fons</tooltip>
+        </btn-ex-bg-color>
+        <lbl-text-color>
+          <value>Color del text</value>
+        </lbl-text-color>
+        <tf-text-color>
+          <tooltip>Introduïu el color del text (#nnnnnn)</tooltip>
+        </tf-text-color>
+        <btn-text-color>
+          <tooltip>Feu clic per a triar el color del text de la pàgina</tooltip>
+        </btn-text-color>
+        <lbl-link-color>
+          <value>Color dels enllaços</value>
+        </lbl-link-color>
+        <tf-link-color>
+          <tooltip>Introduïu el color del text dels enllaços (#nnnnnn)</tooltip>
+        </tf-link-color>
+        <btn-link-color>
+          <tooltip>Feu clic per a triar el color dels enllaços</tooltip>
+        </btn-link-color>
+        <lbl-vlink-color>
+          <value>Color dels enllaços visitats</value>
+        </lbl-vlink-color>
+        <tf-vlink-color>
+          <tooltip>Introduïu el color dels enllaços visitats (#nnnnnn)</tooltip>
+        </tf-vlink-color>
+        <btn-vlink-color>
+          <tooltip>Feu clic per a triar el color dels enllaços visitats</tooltip>
+        </btn-vlink-color>
+        <lbl-nav-bar-color>
+          <value>Color de la barra de navegació</value>
+        </lbl-nav-bar-color>
+        <tf-nav-bar-color>
+          <tooltip>Introduïu el color de la barra de navegació (#nnnnnn)</tooltip>
+        </tf-nav-bar-color>
+        <btn-nav-bar-color>
+          <tooltip>Feu clic per a triar el color de la barra de navegació</tooltip>
+        </btn-nav-bar-color>
+        <btn-preview-appearance>
+          <value>Mostra en el navegador</value>
+          <tooltip>Feu clic per a previsualitzar els colors en el navegador</tooltip>
+        </btn-preview-appearance>
+        <cb-include-timer>
+          <value>Inclou un cronòmetre en l'exercici</value>
+          <tooltip>Marqueu-lo per a incloure un temporitzador en este exercici</tooltip>
+        </cb-include-timer>
+        <lbl-timer-minutes>
+          <value>Minuts</value>
+        </lbl-timer-minutes>
+        <combo-timer-minutes>
+          <tooltip>Trieu els minuts del temporitzador</tooltip>
+        </combo-timer-minutes>
+        <lbl-timer-seconds>
+          <value>Segons</value>
+        </lbl-timer-seconds>
+        <combo-timer-seconds>
+          <tooltip>Trieu los segons del temporitzador</tooltip>
+        </combo-timer-seconds>
+        <lbl-times-up>
+          <value>Missatge quan el temps s'acaba</value>
+        </lbl-times-up>
+        <tf-times-up>
+          <tooltip>Introduïu el text que apareixerà quan el temps s'acabe</tooltip>
+        </tf-times-up>
+        <cb-separate-js-file>
+          <value>Guarda codi javascript en un fitxer independent</value>
+          <tooltip>Marqueu-lo per a guardar el codi javascript en un fitxer independent de l'html</tooltip>
+        </cb-separate-js-file>
+        <cb-include-scorm-12>
+          <value>Inclou funcions SCORM 1.2</value>
+          <tooltip>Seleccioneu inclou funcions SCORM 1.2 en la pàgina d'exercicis</tooltip>
+        </cb-include-scorm-12>
+        <cb-process-for-rtl>
+          <value>Fa un processament especial dels scripts de dreta a esquerra</value>
+          <tooltip>Seleccioneu-lo per a permetre un processament especial per als idiomes de dreta a esquerra</tooltip>
+        </cb-process-for-rtl>
+        <cb-show-limited-questions>
+          <value>Mostra un nombre limitat de preguntes</value>
+          <tooltip>Marqueu-lo perquè que no es mostren totes les preguntes d'un exercici cada vegada que es carrega la pàgina</tooltip>
+        </cb-show-limited-questions>
+        <tf-questions-to-show>
+          <tooltip>Introduïu el nombre de preguntes a mostrar (major que 0)</tooltip>
+        </tf-questions-to-show>
+        <cb-shuffle-questions>
+          <value>Resol les preguntes cada vegada que es carrega la pàgina</value>
+          <tooltip>Marqueu-lo per a desordenar les preguntes cada vegada que es carrega l'exercici</tooltip>
+        </cb-shuffle-questions>
+        <cb-case-sensitive>
+          <value>La comprovació de respostes distingix les majúscules</value>
+          <tooltip>Marqueu-lo perquè la comprovació de respostes distingisca majúscules de minúscules</tooltip>
+        </cb-case-sensitive>
+        <tf-short-answer-tries-on-hybrid-q>
+          <tooltip>Introduïu el nombre d'intents abans que la pregunta es convertisca en elecció múltiple</tooltip>
+        </tf-short-answer-tries-on-hybrid-q>
+        <cb-show-also-correct>
+          <value>Mostra altres respostes correctes</value>
+          <tooltip>Marqueu-lo per a mostrar a l'alumnat totes les possibles respostes correctes</tooltip>
+        </cb-show-also-correct>
+        <cb-include-keypad>
+          <value>Inclou el teclat en la pàgina</value>
+          <tooltip>Marqueu-lo per a incloure un teclat amb caràcters especials que hàgeu especificat</tooltip>
+        </cb-include-keypad>
+        <lbl-keypad-characters>
+          <value>Inclou sempre estos caràcters en el teclat</value>
+        </lbl-keypad-characters>
+        <tf-keypad-characters>
+          <tooltip>Introduïu els caràcters que voleu que apareguen sempre en el teclat</tooltip>
+        </tf-keypad-characters>
+        <lbl-cgi-warning>
+          <value>No proporcionem ajuda per a açò</value>
+        </lbl-cgi-warning>
+        <cb-include-cgi>
+          <value>Subscripció al programa CGI</value>
+          <tooltip>cb-include-cgi</tooltip>
+        </cb-include-cgi>
+        <lbl-formmail-url>
+          <value>URL del script CGI (FormMail):</value>
+        </lbl-formmail-url>
+        <tf-formmail-url>
+          <tooltip>URL absolut del FormMail o un altre programa CGI</tooltip>
+        </tf-formmail-url>
+        <lbl-email>
+          <value>Adreça E-MailEMail on enviar els resultats:</value>
+        </lbl-email>
+        <tf-email>
+          <tooltip>Introduïu l'adreça de correu electrònic per al FormMail on envia els resultats</tooltip>
+        </tf-email>
+        <lbl-name-please>
+          <value>Demana a l'alumne o l'alumna que introduïsca el seu nom:</value>
+        </lbl-name-please>
+        <tf-name-please>
+          <tooltip>Introduïu el text que pregunta a l'alumne o l'alumna el seu nom</tooltip>
+        </tf-name-please>
+        <lbl-user-string-1>
+          <value>Text per a reemplaçar [userstring1]</value>
+        </lbl-user-string-1>
+        <ta-user-string-1>
+          <tooltip>Introduïu el text per a reemplaçar [userstring1]</tooltip>
+        </ta-user-string-1>
+        <lbl-user-string-2>
+          <value>Text per a reemplaçar [userstring2]</value>
+        </lbl-user-string-2>
+        <ta-user-string-2>
+          <tooltip>Introduïu el text per a reemplaçar [userstring2]</tooltip>
+        </ta-user-string-2>
+        <lbl-user-string-3>
+          <value>Text per a reemplaçar [userstring3]</value>
+        </lbl-user-string-3>
+        <ta-user-string-3>
+          <tooltip>Introduïu el text per a reemplaçar [userstring3]</tooltip>
+        </ta-user-string-3>
+        <lbl-header-code>
+          <value>Text de la capçalera</value>
+        </lbl-header-code>
+        <ta-header-code>
+          <tooltip>Introduïu el text a inserir en la capçalera de la pàgina de l'exercici</tooltip>
+        </ta-header-code>
+        <btn-open-config-file>
+          <tooltip>ajuda per al botó Obri la configuració</tooltip>
+        </btn-open-config-file>
+        <btn-save-config-file>
+          <tooltip>ajuda per al botó Guarda la configuració</tooltip>
+        </btn-save-config-file>
+        <btn-save-as-config-file>
+          <tooltip>ajuda per al botó Guarda la configuració com a</tooltip>
+        </btn-save-as-config-file>
+        <btn-close-config-window>
+          <tooltip>ajuda per al botó Tanca la finestra de configuració</tooltip>
+        </btn-close-config-window>
+      </wd-config-shared>
+      <wd-config-jquiz>
+        <lbl-enter-a-guess>
+          <value>Per favor, introduïu una resposta</value>
+        </lbl-enter-a-guess>
+        <tf-enter-a-guess>
+          <tooltip>Introduïu un avís si l'alumne o l'alumna marca per a comprovar</tooltip>
+        </tf-enter-a-guess>
+        <lbl-partly-incorrect>
+          <value>La teua resposta és en part incorrecta</value>
+        </lbl-partly-incorrect>
+        <tf-partly-incorrect>
+          <tooltip>Introduïu un avís per a indicar a l'alumne o l'alumna que la seua resposta és parcialment incorrecta</tooltip>
+        </tf-partly-incorrect>
+        <lbl-correct-answers>
+          <value>Respostes correctes</value>
+        </lbl-correct-answers>
+        <tf-correct-answers>
+          <tooltip>Text introductori per a les respostes correcte a esta pregunta</tooltip>
+        </tf-correct-answers>
+        <cb-show-answer-caption>
+          <value>Text del botó Mostra la resposta</value>
+          <tooltip>Marqueu-lo per a incloure un botó que permeta a l'alumnat visualitzar la resposta correcta</tooltip>
+        </cb-show-answer-caption>
+        <tf-show-answer-caption>
+          <tooltip>Introduïu el text del botó que mostra la resposta correcta de l'alumne o l'alumna</tooltip>
+        </tf-show-answer-caption>
+        <lbl-show-all-questions-caption>
+          <value>Text per al botó Visualitza totes les preguntes</value>
+        </lbl-show-all-questions-caption>
+        <tf-show-all-questions-caption>
+          <tooltip>Introduïu el text per al botó que permet a l'alumnat visualitzar totes les preguntes</tooltip>
+        </tf-show-all-questions-caption>
+        <lbl-show-one-by-one-caption>
+          <value>Text per al botó Visualitza les preguntes d'una en una</value>
+        </lbl-show-one-by-one-caption>
+        <tf-show-one-by-one-caption>
+          <tooltip>Introduïu el text per al botó que permet visualitzar les preguntes d'una en una</tooltip>
+        </tf-show-one-by-one-caption>
+        <lbl-next-q-caption>
+          <value>Text per al botó Pregunta següent</value>
+        </lbl-next-q-caption>
+        <tf-next-q-caption>
+          <tooltip>Text per al botó que permet accedir a la pregunta següent</tooltip>
+        </tf-next-q-caption>
+        <lbl-last-q-caption>
+          <value>Text per al botó Pregunta anterior</value>
+        </lbl-last-q-caption>
+        <tf-last-q-caption>
+          <tooltip>Text per al botó que permet accedir a la pregunta anterior</tooltip>
+        </tf-last-q-caption>
+        <cb-shuffle-answers>
+          <value>Resol les respostes quan es carrega la pàgina</value>
+          <tooltip>Marqueu-lo per a desordenar les respostes a cada pregunta quan es carrega la pàgina</tooltip>
+        </cb-shuffle-answers>
+        <cb-continuous-scoring>
+          <value>Mostra la puntuació després de respondre a cada pregunta</value>
+          <tooltip>Marqueu-lo perquè es mostre la puntuació a mida que es resol l'exercici</tooltip>
+        </cb-continuous-scoring>
+        <lbl-short-answer-tries-on-hybrid-q>
+          <value>Nombre d'intents en una pregunta híbrida abans que apareguen eleccions múltiples</value>
+        </lbl-short-answer-tries-on-hybrid-q>
+        <cb-show-correct-first-time>
+          <value>Mostra el nombre de preguntes contestades correctament a la primera</value>
+          <tooltip>Marqueu-lo perquè es mostre el nombre de preguntes contestades correctament al primer intent</tooltip>
+        </cb-show-correct-first-time>
+      </wd-config-jquiz>
+      <wd-config-jcloze>
+        <lbl-guesses-correct>
+          <value>Totes correctes</value>
+        </lbl-guesses-correct>
+        <tf-guesses-correct>
+          <tooltip>Introduïu el text que indique que totes les respostes donades són correctes</tooltip>
+        </tf-guesses-correct>
+        <lbl-guesses-incorrect>
+          <value>Alguns buits incorrectes</value>
+        </lbl-guesses-incorrect>
+        <tf-guesses-incorrect>
+          <tooltip>Introduïu el text que indique que alguns buits no s'han omplit correctament</tooltip>
+        </tf-guesses-incorrect>
+        <cb-clue-caption>
+          <value>Text per al botó Pista</value>
+          <tooltip>Marqueu-lo per a incloure un botó per a obtindre una pista sobre este buit</tooltip>
+        </cb-clue-caption>
+        <tf-clue-caption>
+          <tooltip>Introduïu el text del botó que mostrarà la pista</tooltip>
+        </tf-clue-caption>
+        <cb-use-drop-down-list>
+          <value>Utilitza una llista desplegable</value>
+          <tooltip>Marqueu-lo per a utilitzar una llista desplegable en lloc de quadres de text en els buits d'este exercici</tooltip>
+        </cb-use-drop-down-list>
+        <cb-include-word-list>
+          <value>Inclou una llista de paraules</value>
+          <tooltip>Marqueu-lo perquè es mostre una llista amb les paraules que cal utilitzar en els buits</tooltip>
+        </cb-include-word-list>
+        <lbl-minimum-gap-size>
+          <value>Força la grandària mínima dels buits a</value>
+        </lbl-minimum-gap-size>
+      </wd-config-jcloze>
+      <wd-config-jcross>
+        <lbl-clues-across>
+          <value>Text sobre la llista de pistes per a Horitzontals</value>
+        </lbl-clues-across>
+        <tf-clues-across>
+          <tooltip>Introduïu l'encapçalament per a pistes d'Horitzontals</tooltip>
+        </tf-clues-across>
+        <lbl-clues-down>
+          <value>Text sobre la llista de pistes per a Verticals</value>
+        </lbl-clues-down>
+        <tf-clues-down>
+          <tooltip>Introduïu l'encapçalament per a pistes de Verticals</tooltip>
+        </tf-clues-down>
+        <lbl-enter-caption>
+          <value>Text per al botó Introduïx</value>
+        </lbl-enter-caption>
+        <tf-enter-caption>
+          <tooltip>Introduïu el text del botó que inserix la resposta en la quadrícula</tooltip>
+        </tf-enter-caption>
+        <cb-include-clue-list>
+          <value>Inclou una llista de pistes</value>
+          <tooltip>Marqueu-lo perquè s'incloga una llista amb les pistes davall de la quadrícula</tooltip>
+        </cb-include-clue-list>
+      </wd-config-jcross>
+      <wd-config-jmatch>
+        <lbl-flashcard-next-caption>
+          <value>Text per al botó Targeta següent: </value>
+        </lbl-flashcard-next-caption>
+        <tf-flashcard-next-caption>
+          <tooltip>Introduïu el text per al botó que mostra el parell de targetes següent</tooltip>
+        </tf-flashcard-next-caption>
+        <lbl-flashcard-delete-caption>
+          <value>Text per al botó Elimina la targeta: </value>
+        </lbl-flashcard-delete-caption>
+        <tf-flashcard-delete-caption>
+          <tooltip>Introduïu el text del botó que elimina temporalment el parell de targetes de la llista</tooltip>
+        </tf-flashcard-delete-caption>
+      </wd-config-jmatch>
+      <wd-config-jmix>
+        <lbl-this-much-correct>
+          <value>Esta part de la teua resposta és correcta</value>
+        </lbl-this-much-correct>
+        <tf-this-much-correct>
+          <tooltip>Text per a indicar quina part de la resposta donada és correcta</tooltip>
+        </tf-this-much-correct>
+        <lbl-next-correct-part>
+          <value>La següent paraula correcta és</value>
+        </lbl-next-correct-part>
+        <tf-next-correct-part>
+          <tooltip>Text per a indicar el següent segment correcte</tooltip>
+        </tf-next-correct-part>
+        <lbl-click-to-add>
+          <value>Feu clic per a afegir una paraula a la frase</value>
+        </lbl-click-to-add>
+        <tf-click-to-add>
+          <tooltip>Introduïu el text del botó que servix per a afegir la paraula seleccionada a la resposta</tooltip>
+        </tf-click-to-add>
+        <tf-show-also-correct>
+          <tooltip>Text que indica qualsevol resposta correcta alternativa</tooltip>
+        </tf-show-also-correct>
+        <cb-always-capitalize-first>
+          <value>Posa sempre en majúscula la primera lletra</value>
+          <tooltip>Marqueu-lo per a forçar que la primera lletra del primer fragment estiga sempre en majúscula</tooltip>
+        </cb-always-capitalize-first>
+        <cb-undo-caption>
+          <value>Text en el botó Desfés</value>
+          <tooltip>Marqueu-lo per a incloure un botó de Desfés</tooltip>
+        </cb-undo-caption>
+        <tf-undo-caption>
+          <tooltip>Introduïu el text per al botó que desfà l'última acció</tooltip>
+        </tf-undo-caption>
+        <cb-restart-caption>
+          <value>Text per al botó Reinicia</value>
+          <tooltip>Marqueu-lo per a incloure un botó que permeta començar de nou</tooltip>
+        </cb-restart-caption>
+        <tf-restart-caption>
+          <tooltip>Introduïu el text del botó que permeta tornar a començar l'exercici</tooltip>
+        </tf-restart-caption>
+      </wd-config-jmix>
+      <wd-chooser-main>
+	  </wd-chooser-main>
+      <wd-choose-paths>
+        <wd-choose-paths-title>
+          <value>Configura els camins de totes les Creïlles</value>
+        </wd-choose-paths-title>
+        <lbl-paths-prefs-file>
+          <value>Fitxer de preferències del projecte</value>
+        </lbl-paths-prefs-file>
+        <tf-paths-prefs-file-current>
+          <tooltip>Camí actual del fitxer de preferències</tooltip>
+        </tf-paths-prefs-file-current>
+        <tf-paths-prefs-file-desired>
+          <tooltip>Introduïu el camí del fitxer de preferències desitjat</tooltip>
+        </tf-paths-prefs-file-desired>
+        <btn-paths-prefs-file>
+          <tooltip>Feu clic per a triar el camí del fitxer de preferències</tooltip>
+        </btn-paths-prefs-file>
+        <lbl-paths-source-folder>
+          <value>Carpeta Font</value>
+        </lbl-paths-source-folder>
+        <tf-paths-source-folder-current>
+          <tooltip>Camí actual de la carpeta de fitxers font html (source)</tooltip>
+        </tf-paths-source-folder-current>
+        <tf-paths-source-folder-desired>
+          <tooltip>Introduïu el camí de la carpeta de fitxers font html (source) desitjat</tooltip>
+        </tf-paths-source-folder-desired>
+        <btn-paths-source-folder>
+          <tooltip>Feu clic per a triar el camí de la carpeta de fitxers font html (source)</tooltip>
+        </btn-paths-source-folder>
+        <btn-paths-source-folder-use-default>
+          <value>Carpeta font (source) per defecte</value>
+          <tooltip/>
+        </btn-paths-source-folder-use-default>
+        <lbl-paths-config-file>
+          <value>Fitxer de configuració</value>
+        </lbl-paths-config-file>
+        <tf-paths-config-file-current>
+          <tooltip>Camí actual del fitxer de configuració</tooltip>
+        </tf-paths-config-file-current>
+        <tf-paths-config-file-desired>
+          <tooltip>Introduïu el camí del fitxer de configuració desitjat</tooltip>
+        </tf-paths-config-file-desired>
+        <btn-paths-config-file>
+          <tooltip>Feu clic per a triar el camí del fitxer de configuració</tooltip>
+        </btn-paths-config-file>
+        <lbl-paths-interface-file>
+          <value>Fitxer de la interfície</value>
+        </lbl-paths-interface-file>
+        <tf-paths-interface-file-current>
+          <tooltip>Camí actual del fitxer de la interfície</tooltip>
+        </tf-paths-interface-file-current>
+        <tf-paths-interface-file-desired>
+          <tooltip>Introduïu el camí del fitxer de la interfície desitjat</tooltip>
+        </tf-paths-interface-file-desired>
+        <btn-paths-interface-file>
+          <tooltip>Feu clic per a triar el camí del fitxer de la interfície</tooltip>
+        </btn-paths-interface-file>
+        <btn-paths-interface-file-use-default>
+          <value>Utilitza interfícies per defecte</value>
+          <tooltip/>
+        </btn-paths-interface-file-use-default>
+        <btn-choose-paths-use-defaults>
+          <value>Utilitza els predeterminats</value>
+          <tooltip>Feu clic per a utilitzar els camins predeterminats de fitxers i carpetes</tooltip>
+        </btn-choose-paths-use-defaults>
+        <btn-choose-paths-save-as>
+          <tooltip>Guarda els canvis dels camins en un nou fitxer de preferències</tooltip>
+        </btn-choose-paths-save-as>
+        <btn-choose-paths-save>
+          <tooltip>Guarda els canvis dels camins en l'actual fitxer de preferències</tooltip>
+        </btn-choose-paths-save>
+        <btn-choose-paths-close-window>
+          <tooltip>Tanca esta finestra</tooltip>
+        </btn-choose-paths-close-window>
+      </wd-choose-paths>
+      <wd-insert-image>
+        <lbl-insert-image-path>
+          <value>Camí o URL de la imatge</value>
+        </lbl-insert-image-path>
+        <tf-insert-image-path>
+          <tooltip>Introduïu el camí relatiu o URL absolut de la imatge</tooltip>
+        </tf-insert-image-path>
+        <btn-insert-image-path>
+          <tooltip>Feu clic per a triar el camí relatiu de la imatge</tooltip>
+        </btn-insert-image-path>
+        <lbl-insert-image-alt>
+          <value>Text alternatiu per a la imatge</value>
+        </lbl-insert-image-alt>
+        <tf-insert-image-alt>
+          <tooltip>Introduïu text alternatiu per a la imatge</tooltip>
+        </tf-insert-image-alt>
+        <lbl-insert-image-title>
+          <value>Títol de la imatge</value>
+        </lbl-insert-image-title>
+        <tf-insert-image-title>
+          <tooltip>Introduïu el títol de la imatge</tooltip>
+        </tf-insert-image-title>
+        <lbl-insert-image-width>
+          <value>Amplària</value>
+        </lbl-insert-image-width>
+        <tf-insert-image-width>
+          <tooltip>Introduïu l'amplària de la imatge (nombre major que 1)</tooltip>
+        </tf-insert-image-width>
+        <lbl-insert-image-height>
+          <value>Alçària</value>
+        </lbl-insert-image-height>
+        <tf-insert-image-height>
+          <tooltip>Introduïu l'alçària de la imatge (nombre major que 1)</tooltip>
+        </tf-insert-image-height>
+        <lbl-insert-image-alignment>
+          <value>Posició de la imatge</value>
+        </lbl-insert-image-alignment>
+        <cb-keep-aspect-ratio>
+          <value>Mantín la proporció entre alçària i amplària</value>
+          <tooltip/>
+        </cb-keep-aspect-ratio>
+        <cmb-insert-image-alignment>
+          <tooltip>Trieu la posició de la imatge dins de l'objecte que la conté</tooltip>
+        </cmb-insert-image-alignment>
+        <btn-insert-image-preview>
+          <value>Vista preliminar</value>
+          <tooltip>Feu clic per a visualitzar la imatge</tooltip>
+        </btn-insert-image-preview>
+        <btn-insert-image-ok>
+          <tooltip>Feu clic per a inserir l'html de la imatge en el quadre de text</tooltip>
+        </btn-insert-image-ok>
+        <btn-insert-image-cancel>
+          <tooltip>Feu clic per a tancar esta finestra</tooltip>
+        </btn-insert-image-cancel>
+      </wd-insert-image>
+      <wd-insert-link>
+        <lbl-insert-link-path>
+          <value>Camí o URL del fitxer enllaçat</value>
+        </lbl-insert-link-path>
+        <tf-insert-link-path>
+          <tooltip>Introduïu el camí relatiu o l'URL absolut del fitxer enllaçat</tooltip>
+        </tf-insert-link-path>
+        <btn-insert-link-path>
+          <tooltip>Feu clic per a triar el camí relatiu del fitxer enllaçat</tooltip>
+        </btn-insert-link-path>
+        <lbl-insert-link-text>
+          <value>Text de l'enllaç</value>
+        </lbl-insert-link-text>
+        <tf-insert-link-text>
+          <tooltip>Introduïu el text que actuarà com a enllaç</tooltip>
+        </tf-insert-link-text>
+        <cb-insert-link-new-window>
+          <value>Obri l'enllaç en una finestra nova</value>
+          <tooltip>Marqueu-lo perquè l'enllaç s'òbriga en una finestra nova</tooltip>
+        </cb-insert-link-new-window>
+        <btn-insert-link-ok>
+          <tooltip>Feu clic per a inserir l'html de l'enllaç en el quadre de text</tooltip>
+        </btn-insert-link-ok>
+        <btn-insert-image-cancel>
+          <tooltip>Feu clic per a tancar esta finestra</tooltip>
+        </btn-insert-image-cancel>
+      </wd-insert-link>
+      <wd-insert-object>
+        <lbl-insert-object-path>
+          <value>Camí o URL del fitxer multimèdia</value>
+        </lbl-insert-object-path>
+        <tf-insert-object-path>
+          <tooltip>Introduïu el camí relatiu o URL absolut de l'objecte multimèdia</tooltip>
+        </tf-insert-object-path>
+        <btn-insert-object-path>
+          <tooltip>Feu clic per a triar el camí relatiu a l'objecte multimèdia</tooltip>
+        </btn-insert-object-path>
+        <lbl-insert-image-width>
+          <value>Amplària </value>
+        </lbl-insert-image-width>
+        <tf-insert-image-width>
+          <tooltip>Introduïu l'amplària de l'objecte multimèdia</tooltip>
+        </tf-insert-image-width>
+        <lbl-insert-image-height>
+          <value>Alçària </value>
+        </lbl-insert-image-height>
+        <tf-insert-image-height>
+          <tooltip>Introduïu l'alçària de l'objecte multimèdia</tooltip>
+        </tf-insert-image-height>
+        <lbl-insert-object-player>
+          <value>Reproductor per al fitxer</value>
+        </lbl-insert-object-player>
+        <cmb-insert-object-player1>
+          <tooltip>Primera elecció per al reproductor multimèdia</tooltip>
+        </cmb-insert-object-player1>
+        <cmb-insert-object-player2>
+          <tooltip>Segona elecció per al reproductor multimèdia</tooltip>
+        </cmb-insert-object-player2>
+        <cmb-insert-object-player3>
+          <tooltip>Tercera elecció per al reproductor multimèdia</tooltip>
+        </cmb-insert-object-player3>
+        <cmb-insert-object-player4>
+          <tooltip>Quarta elecció per al reproductor multimèdia</tooltip>
+        </cmb-insert-object-player4>
+        <cb-insert-object-plain-link>
+          <value>Inclou un enllaç pla al archivo multimedia</value>
+          <tooltip>Marqueu-lo per a incloure un enllaç pla al fitxer multimèdia</tooltip>
+        </cb-insert-object-plain-link>
+        <tf-insert-object-plain-link>
+          <tooltip>Introduïu text que actue com a enllaç al fitxer multimèdia</tooltip>
+        </tf-insert-object-plain-link>
+        <btn-insert-object-ok>
+          <tooltip>Feu clic per a introduir l'html de l'objecte multimèdia en el quadre de text</tooltip>
+        </btn-insert-object-ok>
+        <btn-insert-object-cancel>
+          <tooltip>Feu clic per a tancar esta finestra</tooltip>
+        </btn-insert-object-cancel>
+      </wd-insert-object>
+      <wd-insert-table>
+        <lbl-insert-table-rows>
+          <value>Files de la taula</value>
+        </lbl-insert-table-rows>
+        <tf-insert-table-rows>
+          <tooltip>Introduïu el nombre de files de la taula (nombre major que 0)</tooltip>
+        </tf-insert-table-rows>
+        <lbl-insert-table-columns>
+          <value>Columnes de la taula</value>
+        </lbl-insert-table-columns>
+        <tf-insert-table-columns>
+          <tooltip>Introduïu el nombre de columnes de la taula (nombre major que 1)</tooltip>
+        </tf-insert-table-columns>
+        <lbl-insert-table-padding>
+          <value>Farciment de cel·les</value>
+        </lbl-insert-table-padding>
+        <tf-insert-table-padding>
+          <tooltip>Introduïu el valor de farciment de cada cel·la (0 o major)</tooltip>
+        </tf-insert-table-padding>
+        <lbl-insert-table-spacing>
+          <value>Espai entre cel·les</value>
+        </lbl-insert-table-spacing>
+        <tf-insert-table-spacing>
+          <tooltip>Introduïu el valor d'espai entre les cel·les (0 o major)</tooltip>
+        </tf-insert-table-spacing>
+        <lbl-insert-table-border>
+          <value>Vora de la taula</value>
+        </lbl-insert-table-border>
+        <tf-insert-table-border>
+          <tooltip>Introduïu l'amplària de la vora (0 o major)</tooltip>
+        </tf-insert-table-border>
+        <lbl-insert-table-width>
+          <value>Amplària</value>
+        </lbl-insert-table-width>
+        <tf-insert-table-width>
+          <tooltip>Introduïu l'amplària de la taula (en blanc = amplària completa)</tooltip>
+        </tf-insert-table-width>
+        <btn-insert-table-ok>
+          <tooltip>Fau clic per a introduir l'html de la taula en el quadre de text</tooltip>
+        </btn-insert-table-ok>
+        <btn-insert-table-cancel>
+          <tooltip>Feu clic per a tancar esta finestra</tooltip>
+        </btn-insert-table-cancel>
+      </wd-insert-table>
+      <wd-change-interface>
+        <lbl-interface-font>
+          <value>Tipus de lletra d'etiquetes, botons, pestanyes, etc.</value>
+        </lbl-interface-font>
+        <lbl-interface-font-current>
+          <value>Valor actual:</value>
+        </lbl-interface-font-current>
+        <tf-interface-font-current>
+          <tooltip>Tipus de lletra actual de la interfície</tooltip>
+        </tf-interface-font-current>
+        <lbl-interface-font-desired>
+          <value>Valor desitjat:</value>
+        </lbl-interface-font-desired>
+        <tf-interface-font-desired>
+          <tooltip>Introduïu el tipus de lletra que voleu per als elements de la interfície</tooltip>
+        </tf-interface-font-desired>
+        <btn-interface-font>
+          <tooltip>Feu clic per a triar el tipus de lletra dels elements de la interfície</tooltip>
+        </btn-interface-font>
+        <lbl-input-font>
+          <value>Tipus de lletra per als quadres de text, etc.</value>
+        </lbl-input-font>
+        <lbl-input-font-current>
+          <value>Valor actual:</value>
+        </lbl-input-font-current>
+        <tf-input-font-current>
+          <tooltip>Tipus de lletra actual dels quadres de text</tooltip>
+        </tf-input-font-current>
+        <lbl-input-font-desired>
+          <value>Valor desitjat:</value>
+        </lbl-input-font-desired>
+        <tf-input-font-desired>
+          <tooltip>Introduïu el tipus de lletra que voleu en els quadres de text</tooltip>
+        </tf-input-font-desired>
+        <btn-input-font>
+          <tooltip>Feu clic per a triar el tipus de lletra dels quadres de text</tooltip>
+        </btn-input-font>
+        <btn-apply-interface-change>
+          <value>Aplica</value>
+          <tooltip>Aplica els canvis als tipus de lletra</tooltip>
+        </btn-apply-interface-change>
+        <btn-close-interface-window>
+          <value>Tanca</value>
+          <tooltip>Tanca esta finestra</tooltip>
+        </btn-close-interface-window>
+        <lbl-paths-source-folder>
+          <value>Carpeta font</value>
+        </lbl-paths-source-folder>
+        <lbl-paths-source-folder-current>
+          <value>Valor actual:</value>
+        </lbl-paths-source-folder-current>
+        <tf-paths-source-folder-current>
+          <tooltip>Camí actual de la carpeta font (source) d'esta creïlla</tooltip>
+        </tf-paths-source-folder-current>
+        <lbl-paths-source-folder-desired>
+          <value>Valor desitjat:</value>
+        </lbl-paths-source-folder-desired>
+        <tf-paths-source-folder-desired>
+          <tooltip>Introduïu el camí desitjat a la carpeta font (source) d'esta creïlla</tooltip>
+        </tf-paths-source-folder-desired>
+        <btn-paths-source-folder>
+          <tooltip>Feu clic per a triar el camí de la carpeta font (source) d'esta creïlla</tooltip>
+        </btn-paths-source-folder>
+        <btn-paths-source-folder-use-default>
+          <value>Utilitza la carpeta predeterminada</value>
+        </btn-paths-source-folder-use-default>
+        <lbl-paths-config-file>
+          <value>Fitxer de configuració</value>
+        </lbl-paths-config-file>
+        <lbl-paths-config-file-current>
+          <value>Valor actual:</value>
+        </lbl-paths-config-file-current>
+        <tf-paths-config-file-current>
+          <tooltip>Camí del fitxer de configuració actual d'esta creïlla</tooltip>
+        </tf-paths-config-file-current>
+        <lbl-paths-config-file-desired>
+          <value>Valor desitjat:</value>
+        </lbl-paths-config-file-desired>
+        <tf-paths-config-file-desired>
+          <tooltip>Introduïu el camí del fitxer de configuració que voleu per a esta creïlla</tooltip>
+        </tf-paths-config-file-desired>
+        <btn-paths-config-file>
+          <tooltip>Feu clic per a triar el camí del fitxer de configuració d'esta creïlla</tooltip>
+        </btn-paths-config-file>
+        <lbl-paths-interface-file>
+          <value>Fitxer de la interfície</value>
+        </lbl-paths-interface-file>
+        <lbl-paths-interface-file-current>
+          <value>Valor actual:</value>
+        </lbl-paths-interface-file-current>
+        <tf-paths-interface-file-current>
+          <tooltip>Camí de l'actual fitxer de la interfície d'esta creïlla</tooltip>
+        </tf-paths-interface-file-current>
+        <lbl-paths-interface-file-desired>
+          <value>Valor desitjat:</value>
+        </lbl-paths-interface-file-desired>
+        <tf-paths-interface-file-desired>
+          <tooltip>Introduïu el camí del fitxer de la interfície que voleu per a esta creïlla</tooltip>
+        </tf-paths-interface-file-desired>
+        <btn-paths-interface-file>
+          <tooltip>Feu clic per a triar el camí del fitxer de la interfície per a esta creïlla</tooltip>
+        </btn-paths-interface-file>
+        <btn-paths-interface-file-use-default>
+          <value>Utilitza els valors de la interfície predeterminats (anglés)</value>
+          <tooltip>Feu clic per a utilitzar la interfície en anglés</tooltip>
+        </btn-paths-interface-file-use-default>
+        <lbl-interface-texts-section>
+          <value>Seccions del fitxer de la interfície</value>
+        </lbl-interface-texts-section>
+        <lbl-interface-texts-subsection>
+          <value>Subseccions de la secció</value>
+        </lbl-interface-texts-subsection>
+        <lbl-interface-texts-items>
+          <value>Elements de la subsecció</value>
+        </lbl-interface-texts-items>
+        <lbl-interface-texts-inputs>
+          <value>Textos de l'element seleccionat</value>
+        </lbl-interface-texts-inputs>
+        <lbl-interface-text-current>
+          <value>Text actual d'este element:</value>
+        </lbl-interface-text-current>
+        <tf-interface-text-current>
+          <tooltip>Valor actual del text d'este element</tooltip>
+        </tf-interface-text-current>
+        <lbl-interface-text-desired>
+          <value>Text desitjat per a este element:</value>
+        </lbl-interface-text-desired>
+        <tf-interface-text-desired>
+          <tooltip>Introduïu el text que voleu per a este element</tooltip>
+        </tf-interface-text-desired>
+        <lbl-interface-tooltip-current>
+          <value>Ajuda actual d'este element:</value>
+        </lbl-interface-tooltip-current>
+        <tf-interface-tooltip-current>
+          <tooltip>Valor actual del text d'ajuda per a este element</tooltip>
+        </tf-interface-tooltip-current>
+        <lbl-interface-tooltip-desired>
+          <value>Text d'ajuda que voleu per a este element:</value>
+        </lbl-interface-tooltip-desired>
+        <tf-interface-tooltip-desired>
+          <tooltip>Introduïu el text d'ajuda que voleu per a este element</tooltip>
+        </tf-interface-tooltip-desired>
+        <btn-open-interface-file>
+          <value>Obri</value>
+          <tooltip>Feu clic per a obrir un fitxer d'interfície i llegir-lo en esta finestra</tooltip>
+        </btn-open-interface-file>
+        <btn-save-interface-file>
+          <value>Guarda</value>
+          <tooltip>Feu clic per a guardar els canvis</tooltip>
+        </btn-save-interface-file>
+        <btn-save-as-interface-file>
+          <value>Anomena i guarda...</value>
+          <tooltip>Feu clic per a guardar els canvis en un fitxer d'interfície nou</tooltip>
+        </btn-save-as-interface-file>
+      </wd-change-interface>
+      <wd-reading-text>
+        <cb-reading-include>
+          <value>Inclou una lectura amb l'exercici</value>
+          <tooltip>Marqueu-lo per a incloure una lectura amb l'exercici</tooltip>
+        </cb-reading-include>
+        <lbl-reading-import>
+          <value>Importa una pàgina web per a la lectura</value>
+        </lbl-reading-import>
+        <btn-reading-import>
+          <tooltip>Feu clic per a triar un text de lectura a importar</tooltip>
+        </btn-reading-import>
+        <lbl-reading-title>
+          <value>Títol de la lectura:</value>
+        </lbl-reading-title>
+        <tf-reading-title>
+          <tooltip>Introduïu un títol per a la lectura</tooltip>
+        </tf-reading-title>
+        <lbl-reading-text>
+          <value>Text de lectura:</value>
+        </lbl-reading-text>
+        <ta-reading-text>
+          <tooltip>Introduïu el texto html per a la lectura</tooltip>
+        </ta-reading-text>
+        <btn-reading-ok>
+          <tooltip>Feu clic per a acceptar els canvis</tooltip>
+        </btn-reading-ok>
+        <btn-reading-cancel>
+          <tooltip>Feu clic per a tancar esta finestra</tooltip>
+        </btn-reading-cancel>
+      </wd-reading-text>
+      <wd-metadata>
+        <wd-metadata-title>
+          <value>Metadades de DC</value>
+        </wd-metadata-title>
+        <lbl-metadata-list-of-elements>
+          <value>Llista d'elements de Dublin Core metadata</value>
+        </lbl-metadata-list-of-elements>
+        <cmb-metadata-list-of-elements>
+          <tooltip>Trieu un element d'esta llista</tooltip>
+        </cmb-metadata-list-of-elements>
+        <lbl-metadata-instance>
+          <value>Aparició d'este element:</value>
+        </lbl-metadata-instance>
+        <tf-metadata-instance>
+          <tooltip>Aparició d'este element metadades</tooltip>
+        </tf-metadata-instance>
+        <btn-metadata-instance-up-arrow>
+          <tooltip>Feu clic per a pujar en la llista d'aparicions d'este element</tooltip>
+        </btn-metadata-instance-up-arrow>
+        <btn-metadata-instance-down-arrow>
+          <tooltip>Feu clic per a baixar en la llista d'aparicions d'este element</tooltip>
+        </btn-metadata-instance-down-arrow>
+        <lbl-metadata-value-text>
+          <value>Text d'esta aparició d'este element:</value>
+        </lbl-metadata-value-text>
+        <ta-metadata-text-value>
+          <tooltip>Introduïu el text per a esta aparició d'este element metadades</tooltip>
+        </ta-metadata-text-value>
+        <btn-metadata-add>
+          <value>Afig</value>
+          <tooltip>Feu clic per a afegir esta aparició a este element</tooltip>
+        </btn-metadata-add>
+        <btn-metadata-delete>
+          <value>Elimina</value>
+          <tooltip>Feu clic per a eliminar esta aparició d'este element</tooltip>
+        </btn-metadata-delete>
+        <btn-metadata-done>
+          <value>Fet</value>
+          <tooltip>Feu clic per a guardar els canvis i tancar esta finestra</tooltip>
+        </btn-metadata-done>
+      </wd-metadata>
+      <wd-register-user>
+        <register-user-window-title>
+          <value>Registra l'usuari</value>
+        </register-user-window-title>
+        <lbl-user-name-to-register>
+          <value>Nom</value>
+        </lbl-user-name-to-register>
+        <tf-user-name-to-register>
+          <tooltip>Introduïu el nom de l'usuari</tooltip>
+        </tf-user-name-to-register>
+        <lbl-reg-key-to-register>
+          <value>Clau de registre (XXXX-XXXX-XXXX)</value>
+        </lbl-reg-key-to-register>
+        <tf-reg-key-to-register>
+          <tooltip>Introduïu la clau de registre</tooltip>
+        </tf-reg-key-to-register>
+        <btn-register-user>
+          <value>Registra</value>
+          <tooltip>Feu clic per a intentar registrar-vos amb este nom i clau</tooltip>
+        </btn-register-user>
+        <btn-register-user-close-window>
+          <tooltip>Feu clic per a tancar esta finestra</tooltip>
+        </btn-register-user-close-window>
+      </wd-register-user>
+	  <wd-masher-main>
+        <btn-move-file-up>
+          <value>Amunt</value>
+          <tooltip></tooltip>
+        </btn-move-file-up>
+        <btn-move-file-down>
+          <value>Avall</value>
+          <tooltip></tooltip>
+        </btn-move-file-down>
+        <btn-add-files>
+          <value>Afig...</value>
+          <tooltip></tooltip>
+        </btn-add-files>
+        <btn-delete-file>
+          <value>Elimina</value>
+          <tooltip></tooltip>
+        </btn-delete-file>
+        <lbl-output-folder>
+          <value>Carpeta on crear l'exercici</value>
+          <tooltip></tooltip>
+        </lbl-output-folder>
+        <tf-masher-output-folder>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-masher-output-folder>
+        <rb-appearance-use-settings-from-file>
+          <value>Utilitza la configuració obtinguda des dels fitxers de dades</value>
+          <tooltip></tooltip>
+        </rb-appearance-use-settings-from-file>
+        <rb-appearance-use-masher-settings>
+          <value>Utilitza la configuració indicada a continuació</value>
+          <tooltip></tooltip>
+        </rb-appearance-use-masher-settings>
+        <rb-user-strings-use-settings-from-file>
+          <value>Utilitza la configuració obtinguda des d'un fitxer</value>
+          <tooltip></tooltip>
+        </rb-user-strings-use-settings-from-file>
+        <rb-user-strings-use-masher-settings>
+          <value>Utilitza la configuració indicada a continuació</value>
+          <tooltip></tooltip>
+        </rb-user-strings-use-masher-settings>
+        <cb-add-navbar-to-pages>
+          <value>Afig una barra de navegació en les pàgines que no són exercicis</value>
+          <tooltip></tooltip>
+        </cb-add-navbar-to-pages>
+        <lbl-masher-source-folder>
+          <value>Carpeta de fitxers font per a combinar amb fitxers de dades</value>
+          <tooltip></tooltip>
+        </lbl-masher-source-folder>
+        <lbl-masher-unit-index-source>
+          <value>Codi font del fitxer Índex per a la unitat masher(editeu-lo sota la vostra responsabilitat)</value>
+          <tooltip></tooltip>
+        </lbl-masher-unit-index-source>
+        <btn-save-masher-unit-index-source>
+          <value>Guarda la font de l'índex</value>
+          <tooltip></tooltip>
+        </btn-save-masher-unit-index-source>
+        <btn-restore-default-masher-unit-index-source>
+          <value>Restaura la font de l'índex per defecte</value>
+          <tooltip></tooltip>
+        </btn-restore-default-masher-unit-index-source>
+        <lbl-masher-unit-title>
+          <value>Títol de la unitat</value>
+          <tooltip></tooltip>
+        </lbl-masher-unit-title>
+        <tf-masher-unit-title>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-masher-unit-title>
+        <lbl-masher-unit-index-filename>
+          <value>Nom del contingut dels fitxers</value>
+          <tooltip></tooltip>
+        </lbl-masher-unit-index-filename>
+        <tf-masher-unit-index-filename>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-masher-unit-index-filename>
+        <btn-masher-build-unit>
+          <value>Construïx la unitat</value>
+          <tooltip></tooltip>
+        </btn-masher-build-unit>
+      </wd-masher-main>
+      <wd-masher-confirm-add>
+        <wd-masher-confirm-add-title>
+          <value>Afig un fitxer o més fitxers al projecte</value>
+        </wd-masher-confirm-add-title>
+        <lbl-source-filename>
+          <value>Nom del fitxer de dades</value>
+          <tooltip></tooltip>
+        </lbl-source-filename>
+        <tf-source-filename>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-source-filename>
+        <lbl-output-filename>
+          <value>Nom del fitxer de l'exercici</value>
+          <tooltip></tooltip>
+        </lbl-output-filename>
+        <tf-output-filename>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-output-filename>
+        <lbl-next-filename>
+          <value>Exercici següent</value>
+          <tooltip></tooltip>
+        </lbl-next-filename>
+        <tf-next-filename>
+          <value></value>
+          <tooltip></tooltip>
+        </tf-next-filename>
+        <lbl-output-format>
+          <value>Tipus d'eixida</value>
+          <tooltip></tooltip>
+        </lbl-output-format>
+        <cmb-output-format>
+          <value></value>
+          <tooltip></tooltip>
+        </cmb-output-format>
+        <btn-ok>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-ok>
+        <btn-ok-all>
+          <value></value>
+          <tooltip></tooltip>
+        </btn-ok-all>
+        <lbl-masher-confirm-add-window-title>
+          <value>Afig un fitxer o més fitxers al projecte</value>
+          <tooltip></tooltip>
+        </lbl-masher-confirm-add-window-title>
+      </wd-masher-confirm-add>
+	</windows>
+    <menus>
+      <menubar-shared-main>
+        <menu-item-create-v6-page-dragdrop>
+          <value>Crea una pàgina d'Arrossega i deixa anar</value>
+          <tooltip>Trieu crea un exercici del tipus arrossega i deixa anar</tooltip>
+        </menu-item-create-v6-page-dragdrop>
+        <menu-item-create-v6-page-text>
+          <value>Crea un fitxer de només-text</value>
+          <tooltip>Trieu crea un fitxer de text pla per a les preguntes i respostes</tooltip>
+        </menu-item-create-v6-page-text>
+        <menu-item-delete-item>
+          <value>Elimina l'element...</value>
+          <tooltip>Seleccioneu l'element a eliminar de l'exercici</tooltip>
+        </menu-item-delete-item>
+        <menu-item-insert-item>
+          <value>Inserix un element...</value>
+          <tooltip>Seleccioneu on inserir l'element nou en este exercici</tooltip>
+        </menu-item-insert-item>
+        <menu-item-move-item>
+          <value>Moure un element...</value>
+          <tooltip>Seleciona l'element a moure en l'exercici</tooltip>
+        </menu-item-move-item>
+        <menu-item-shuffle-items>
+          <value>Mescla elements</value>
+          <tooltip>Mescla els elements d'este exercici</tooltip>
+        </menu-item-shuffle-items>
+        <menu-file>
+          <value>Fitxer</value>
+          <tooltip>Elements que afecten a fitxers sencers</tooltip>
+        </menu-file>
+        <menu-item-new-ex>
+          <value>Exercici nou</value>
+          <tooltip>Comença un exercici nou</tooltip>
+        </menu-item-new-ex>
+        <menu-item-open-ex>
+          <value>Obri el fitxer...</value>
+          <tooltip>Obri un fitxer prèviament guardat</tooltip>
+        </menu-item-open-ex>
+        <menu-item-save-ex>
+          <value>Guarda el fitxer</value>
+          <tooltip>Guarda dades en un fitxer de dades per a esta creïlla</tooltip>
+        </menu-item-save-ex>
+        <menu-item-save-as-ex>
+          <value>Guarda el fitxer com a...</value>
+          <tooltip>Guarda les dades en un fitxer que s'especifica</tooltip>
+        </menu-item-save-as-ex>
+        <menu-recent>
+          <value>Fitxers recents</value>
+          <tooltip>Llista de fitxers guardats recentment per a esta creïlla</tooltip>
+        </menu-recent>
+        <menu-item-metadata>
+          <value>Edita Dublin Core Metadata</value>
+          <tooltip>Llista dels elements de Dublin Core metadata</tooltip>
+        </menu-item-metadata>
+        <menu-item-reading-text>
+          <value>Text de lectura...</value>
+          <tooltip>Inclou un text de lectura en este exercici</tooltip>
+        </menu-item-reading-text>
+        <menu-export>
+          <value>Exporta</value>
+          <tooltip>Per a crear pàginas web, etc.</tooltip>
+        </menu-export>
+        <menu-item-create-v6-page-standard>
+          <value>Crea una pàgina V6 estàndard</value>
+          <tooltip>Crea una pàgina estàndard amb este exercici</tooltip>
+        </menu-item-create-v6-page-standard>
+        <menu-item-exit>
+          <value>Ix</value>
+          <tooltip>Tanca esta creïlla</tooltip>
+        </menu-item-exit>
+        <menu-edit>
+          <value>Edició</value>
+          <tooltip>Elements que permeten editar text</tooltip>
+        </menu-edit>
+        <menu-item-cut>
+          <value>Retalla</value>
+          <tooltip>Retalla al porta-retalls el text seleccionat</tooltip>
+        </menu-item-cut>
+        <menu-item-copy>
+          <value>Copia</value>
+          <tooltip>Copia al porta-retalls el text seleccionat</tooltip>
+        </menu-item-copy>
+        <menu-item-paste>
+          <value>Apega</value>
+          <tooltip>Apega el text del porta-retalls en el punt d'inserció</tooltip>
+        </menu-item-paste>
+        <menu-item-delete>
+          <value>Suprimix</value>
+          <tooltip>Suprimix el text seleccionat</tooltip>
+        </menu-item-delete>
+        <menu-item-select-all>
+          <value>Selecciona-ho tot</value>
+          <tooltip>Selecciona tot el text</tooltip>
+        </menu-item-select-all>
+        <menu-insert>
+          <value>Inserix</value>
+          <tooltip>Elements que permeten inserir blocs d'etiquetes HTML</tooltip>
+        </menu-insert>
+        <menu-item-insert-image>
+          <value>Inserix una imatge</value>
+          <tooltip>Inserix codi HTML per a una imatge</tooltip>
+        </menu-item-insert-image>
+        <menu-item-insert-link>
+          <value>Inserix enllaç a un fitxer</value>
+          <tooltip>Inserix codi HTML per a un enllaç a un fitxer</tooltip>
+        </menu-item-insert-link>
+        <menu-item-insert-table>
+          <value>Inserix una taula</value>
+          <tooltip>Inserix codi HTML per a una taula</tooltip>
+        </menu-item-insert-table>
+        <menu-item-insert-object>
+          <value>Inserix un objecte multimèdia</value>
+          <tooltip>Inserix codi HTML per a un objecte multimèdia</tooltip>
+        </menu-item-insert-object>
+        <menu-manage>
+          <value>Gestiona</value>
+          <tooltip>Elements que permeten gestionar aspectes de l'exercici</tooltip>
+        </menu-manage>
+        <menu-options>
+          <value>Opcions</value>
+          <tooltip>Elements que proporcionen diverses opcions de configuració</tooltip>
+        </menu-options>
+        <menu-item-read-config>
+          <value>Llig la configuració amb el fitxer</value>
+          <tooltip>Llig la informació de configuració juntament amb el fitxer</tooltip>
+        </menu-item-read-config>
+        <menu-item-open-config>
+          <value>Obri la finestra de configuració</value>
+          <tooltip>Edita elements (botons, missatges) de la pàgina de l'exercici</tooltip>
+        </menu-item-open-config>
+        <menu-item-open-interface>
+          <value>Obri la finestra de canvi d'interfície</value>
+          <tooltip>Canvia la interfície d'esta creïlla (tipus de lletra, etc.)</tooltip>
+        </menu-item-open-interface>
+        <menu-help>
+          <value>Ajuda</value>
+          <tooltip>Elements que proporcionen més informació</tooltip>
+        </menu-help>
+        <menu-item-help-contents>
+          <value>Continguts de l'ajuda</value>
+          <tooltip>Visualitza l'ajuda que porta el Hot Potatoes</tooltip>
+        </menu-item-help-contents>
+       <menu-item-help-tutorial>
+          <value>Tutoriales</value>
+          <tooltip>Instrucciones detalladas del uso de Hot Potatoes</tooltip>
+        </menu-item-help-tutorial>
+        <menu-item-feature-list>
+          <value>Llista de noves característiques i errors d'esta versió</value>
+          <tooltip/>
+        </menu-item-feature-list>
+        <menu-item-faq>
+          <value>Preguntes freqüents</value>
+          <tooltip>Visualitza PMF en la xarxa</tooltip>
+        </menu-item-faq>
+        <menu-item-bulletin-board>
+          <value>Llista de discussió del grup</value>
+          <tooltip>Va al grup de discussió en la xarxa</tooltip>
+        </menu-item-bulletin-board>
+        <menu-item-help-email>
+          <value>Suport per correu electrònic</value>
+          <tooltip>Envia un correu als creadors del programa</tooltip>
+        </menu-item-help-email>
+        <menu-item-register>
+          <value>Registre</value>
+          <tooltip>Introduïu el nom d'usuari i la clau per a registrar esta còpia del Hot Potatoes</tooltip>
+        </menu-item-register>
+        <menu-item-about>
+          <value>Quant a</value>
+          <tooltip>Visualitza el número de versió</tooltip>
+        </menu-item-about>
+      </menubar-shared-main>
+      <menubar-chooser-main>
+        <menu-item-exit-all>
+          <value>Ix de totes les creïlles</value>
+          <tooltip>Ix de totes les creïlles immediatament</tooltip>
+        </menu-item-exit-all>
+        <menu-item-show-tooltips>
+          <value>Mostra l'indicador de funció</value>
+          <tooltip>Si està marcat fa que el Hot Potatoes mostre els indicadors de funció quan el ratolí es troba damunt</tooltip>
+        </menu-item-show-tooltips>
+        <menu-item-choose-paths>
+          <value>Configuració de camins de la Finestra del projecte</value>
+          <tooltip>Tria els camins als fitxers importants de totes les creÏlles</tooltip>
+        </menu-item-choose-paths>
+        <menu-set-default-paths>
+          <value>Restaura els camins del Projecte per defecte</value>
+          <tooltip>Restaura els valors per defecte on el Hot Potatoes busca els fitxers</tooltip>
+        </menu-set-default-paths>
+      </menubar-chooser-main>
+      <menubar-jcloze-main>
+        <menu-item-show-tooltips>
+          <value>Mostra indicadors de funció</value>
+          <tooltip>Si està marcat fa que el Hot Potatoes mostre els insdicadors de funció quan el ratolí es troba damunt</tooltip>
+        </menu-item-show-tooltips>
+      </menubar-jcloze-main>
+      <menubar-jcross-main>
+        <menu-item-resize-grid>
+          <value>Redimensiona la quadrícula...</value>
+          <tooltip>Canvia la grandària de la quadrícula</tooltip>
+        </menu-item-resize-grid>
+        <menu-item-auto-grid>
+          <value>Crea una quadrícula a partir d'una llista de paraules...</value>
+          <tooltip>Crea la quadrícula a partir d'una llista de paraules</tooltip>
+        </menu-item-auto-grid>
+        <menu-item-case-sensitive-grid>
+          <value>La graella distingix majúscules i minúscules</value>
+          <tooltip>La graella distingix en els exercicis entre majúscules i minúscules</tooltip>
+        </menu-item-case-sensitive-grid>
+      </menubar-jcross-main>
+      <menubar-jmatch-main>
+        <menu-item-append-exercise>
+          <value>Afig exercici...</value>
+          <tooltip>Afig un altre exercici al final d'este</tooltip>
+        </menu-item-append-exercise>
+        <menu-item-create-v6-page-flashcard>
+          <value>Crea una pàgina de targetes</value>
+          <tooltip>Crea una pàgina de targetes amb les dades actuals</tooltip>
+        </menu-item-create-v6-page-flashcard>
+        <menu-item-delete-item>
+          <value>Elimina un element...</value>
+          <tooltip>Elimina un element específic de l'exercici</tooltip>
+        </menu-item-delete-item>
+        <menu-item-insert-item>
+          <value>Inserix un element...</value>
+          <tooltip>Inserix un nou element d'exercici en el lloc especificat</tooltip>
+        </menu-item-insert-item>
+        <menu-item-move-item>
+          <value>Mou un element...</value>
+          <tooltip>Mou l'element de l'exercici especificat</tooltip>
+        </menu-item-move-item>
+        <menu-item-shuffle-items>
+          <value>Resol elements</value>
+          <tooltip>Resol elements en esta creïlla</tooltip>
+        </menu-item-shuffle-items>
+        <menu-item-switch-columns>
+          <value>Intercanvia columnes</value>
+          <tooltip>Intercanvia les columnes esquerra i dreta</tooltip>
+        </menu-item-switch-columns>
+      </menubar-jmatch-main>
+      <menubar-jmix-main>
+</menubar-jmix-main>
+      <menubar-jquiz-main>
+        <menu-beginner-advanced-ui>
+          <value>Fixa el mode interfície de l'usuari</value>
+          <tooltip>Mostra o oculta opcions més avançades</tooltip>
+        </menu-beginner-advanced-ui>
+        <menu-item-beginner-ui>
+          <value>Interfície simple</value>
+          <tooltip>Oculta les opcions avançades</tooltip>
+        </menu-item-beginner-ui>
+        <menu-item-advanced-ui>
+          <value>Interfície avançada</value>
+          <tooltip>Mostra les opcions avançades</tooltip>
+        </menu-item-advanced-ui>
+      </menubar-jquiz-main>
+      <menubar-masher-main>
+        <menu-file-masher>
+          <value>Fitxer</value>
+          <tooltip>Fitxers que afecten tot el projecte Masher</tooltip>
+        </menu-file-masher>
+        <menu-item-new-proj>
+          <value>Projecte nou</value>
+          <tooltip>Crea un nou projecte Masher</tooltip>
+        </menu-item-new-proj>
+        <menu-item-open-masher>
+          <value>Obri un projecte...</value>
+          <tooltip>Obri un projecte Masher</tooltip>
+        </menu-item-open-masher>
+        <menu-item-save-masher>
+          <value>Guarda el projecte</value>
+          <tooltip>Guarda el projecte actual</tooltip>
+        </menu-item-save-masher>
+        <menu-item-save-as-masher>
+          <value>Anomena i guarda el projecte...</value>
+          <tooltip>Trieu un fitxer per a guardar el projecte actual</tooltip>
+        </menu-item-save-as-masher>
+        <menu-recent-masher>
+          <value>Projectes recents</value>
+          <tooltip>Visualitza un llistat dels projectes recents</tooltip>
+        </menu-recent-masher>
+        <menu-actions-masher>
+          <value>Accions</value>
+          <tooltip>Accions Masher que podeu fer</tooltip>
+        </menu-actions-masher>
+        <menu-item-build-unit>
+          <value>Crea una unitat</value>
+          <tooltip/>
+        </menu-item-build-unit>
+        <menu-item-build-index>
+          <value>Crea només la pàgina de l'índex</value>
+          <tooltip/>
+        </menu-item-build-index>
+        <menu-item-batch-process>
+          <value>Processament de lots...</value>
+          <tooltip/>
+        </menu-item-batch-process>
+        <menu-item-blank-web-page>
+          <value>Crea una pàgina web en blanc</value>
+          <tooltip/>
+        </menu-item-blank-web-page>
+        <menu-item-css-base>
+          <value>Crea un full d'estil base</value>
+          <tooltip/>
+        </menu-item-css-base>
+        <menu-item-css-full>
+          <value>Crea un full d'estil complet per al Hot Potatoes</value>
+          <tooltip/>
+        </menu-item-css-full>
+        <menu-options-masher>
+          <value>Opcions</value>
+          <tooltip>Elements per a canviar els paràmetres de com funciona el Hot Potatoes</tooltip>
+        </menu-options-masher>
+        <menu-item-open-interface-masher>
+          <value>Tria el fitxer d'interfície</value>
+          <tooltip>Utilitza este fitxer per a les interfícies</tooltip>
+        </menu-item-open-interface-masher>
+        <menu-item-register-masher>
+          <value>Registra</value>
+          <tooltip>Servix per a introduir el vostre nom d'usuari i la clau de registre</tooltip>
+        </menu-item-register-masher>
+      </menubar-masher-main>
+    </menus>
+    <messages>
+      <msg-use-default-interface-file>
+        <value>Voleu utilitzar la interfície per defecte?</value>
+      </msg-use-default-interface-file>
+      <msg-data-file>
+        <value>Fitxer de dades</value>
+      </msg-data-file>
+      <msg-masher-output-type-flashcard>
+        <value>Targeta de vocabulari</value>
+      </msg-masher-output-type-flashcard>
+      <msg-display-in-browser>
+        <value>Visualitza en el navegador</value>
+      </msg-display-in-browser>
+      <msg-value>
+        <value>Valor</value>
+      </msg-value>
+      <msg-masher-output-type-non-hotpot>
+        <value>No és del tipus hotpot</value>
+      </msg-masher-output-type-non-hotpot>
+      <msg-ok-all>
+        <value>Accepta tots</value>
+      </msg-ok-all>
+      <msg-display-upload-to-hotpotnet>
+        <value>Puja a hotpotatoes.net</value>
+      </msg-display-upload-to-hotpotnet>
+      <msg-masher-output-type-dragdrop>
+        <value>Arrossega i deixa anar</value>
+      </msg-masher-output-type-dragdrop>
+      <msg-masher-output-type-standard>
+        <value>Estàndard</value>
+      </msg-masher-output-type-standard>
+      <msg-masher-file>
+        <value>Fitxer de projecte Masher</value>
+      </msg-masher-file>
+      <msg-masher-must-be-registered>
+        <value>Per favor, registreu esta còpia de Masher abans de realitzar esta acció</value>
+      </msg-masher-must-be-registered>
+
+      <msg-exercise-created>
+        <value>Exercici creat:</value>
+      </msg-exercise-created>
+      <msg-masher-column-data-filename>
+        <value>Fitxers de dades</value>
+      </msg-masher-column-data-filename>
+      <msg-masher-column-output-filename>
+        <value>Fitxers d'eixida</value>
+      </msg-masher-column-output-filename>
+      <msg-masher-column-next-filename>
+        <value>Pàgina següent</value>
+      </msg-masher-column-next-filename>
+      <msg-masher-column-output-type>
+        <value>Tipus de fitxer</value>
+      </msg-masher-column-output-type>
+      <msg-26-index-chars>
+        <value>ABCÇDEFGHIJKLMONPQRSTUVWXYZ</value>
+      </msg-26-index-chars>
+      <msg-add>
+        <value>Afig</value>
+      </msg-add>
+      <msg-apply>
+        <value>Aplica</value>
+      </msg-apply>
+      <msg-masher-tab-files>
+        <value>Fitxers</value>
+      </msg-masher-tab-files>
+      <msg-masher-tab-appearance>
+        <value>Aparença</value>
+      </msg-masher-tab-appearance>
+      <msg-masher-tab-user-strings>
+        <value>Textos</value>
+      </msg-masher-tab-user-strings>
+      <msg-masher-tab-buttons>
+        <value>Botons</value>
+      </msg-masher-tab-buttons>
+      <msg-masher-tab-source>
+        <value>Pàgina inicial</value>
+      </msg-masher-tab-source>
+      <msg-masher-tab-index>
+        <value>Índex</value>
+      </msg-masher-tab-index>
+      <msg-apply-tooltip>
+        <value>Feu clic per a aplicar els canvis</value>
+      </msg-apply-tooltip>
+      <msg-cancel>
+        <value>Cancel·la</value>
+      </msg-cancel>
+      <msg-cancel-tooltip>
+        <value>Feu clic per a ignorar els canvis proposats</value>
+      </msg-cancel-tooltip>
+      <msg-cant-find-config-file>
+        <value>No trobe el fitxer de configuració:</value>
+      </msg-cant-find-config-file>
+      <msg-cant-find-source-file>
+        <value>No trobe els fitxers font (source):</value>
+      </msg-cant-find-source-file>
+      <msg-cant-find-source-folder>
+        <value>No trobe la carpeta font (source):</value>
+      </msg-cant-find-source-folder>
+      <msg-caption>
+        <value>Text</value>
+      </msg-caption>
+      <msg-center>
+        <value>centre</value>
+      </msg-center>
+      <msg-check-to-include-in-page>
+        <value>Marqueu este element per a incloure'l en l'exercici</value>
+      </msg-check-to-include-in-page>
+      <msg-close>
+        <value>Tanca</value>
+      </msg-close>
+      <msg-close-tooltip>
+        <value>Feu clic per a tancar la finestra sense més canvis en l'exercici</value>
+      </msg-close-tooltip>
+      <msg-config-file-is>
+        <value>Fitxer de configuració:</value>
+      </msg-config-file-is>
+      <msg-config-tab-instructions>
+        <value>Instruccions</value>
+      </msg-config-tab-instructions>
+      <msg-config-tab-prompts>
+        <value>Avisos</value>
+      </msg-config-tab-prompts>
+      <msg-config-tab-buttons>
+        <value>Botons</value>
+      </msg-config-tab-buttons>
+      <msg-config-tab-appearance>
+        <value>Aparença</value>
+      </msg-config-tab-appearance>
+      <msg-config-tab-timer>
+        <value>Temporitzador</value>
+      </msg-config-tab-timer>
+      <msg-config-tab-other>
+        <value>Altres</value>
+      </msg-config-tab-other>
+      <msg-config-tab-cgi>
+        <value>CGI</value>
+      </msg-config-tab-cgi>
+      <msg-config-tab-power-user>
+        <value>Usuari avançat</value>
+      </msg-config-tab-power-user>
+      <msg-configuration-file>
+        <value>Fitxer de configuració</value>
+      </msg-configuration-file>
+      <msg-confirm-overwrite>
+        <value>Voleu reemplaçar el fitxer actual?</value>
+      </msg-confirm-overwrite>
+      <msg-confirm>
+        <value>Confirma</value>
+      </msg-confirm>
+      <msg-continue-with-defaults>
+        <value>S'utilitzaran els valors predeterminats</value>
+      </msg-continue-with-defaults>
+      <msg-create-exercise-file-failed>
+        <value>S'ha produït un error en intentar crear el fitxer de l'exercici:</value>
+      </msg-create-exercise-file-failed>
+      <msg-create>
+        <value>Crea</value>
+      </msg-create>
+      <msg-current-value>
+        <value>Valor actual</value>
+      </msg-current-value>
+      <msg-default-folder>
+        <value>Carpeta predeterminada</value>
+      </msg-default-folder>
+      <msg-delete-item-enter-number>
+        <value>Introduïu el número d'element a eliminar:</value>
+      </msg-delete-item-enter-number>
+      <msg-delete>
+        <value>Suprimix</value>
+      </msg-delete>
+      <msg-desired-value>
+        <value>Valor desitjat:</value>
+      </msg-desired-value>
+      <msg-done>
+        <value>Fet</value>
+      </msg-done>
+      <msg-enter-url-here>
+        <value>Introduïu un URL absolut o relatiu</value>
+      </msg-enter-url-here>
+      <msg-error-has-occurred>
+        <value>S'ha produït un error</value>
+      </msg-error-has-occurred>
+      <msg-error>
+        <value>Error</value>
+      </msg-error>
+      <msg-exercise>
+        <value>Exercici</value>
+      </msg-exercise>
+      <msg-file-already-exists>
+        <value>Este fitxer ja existix:</value>
+      </msg-file-already-exists>
+      <msg-file-name-has-illegal-char>
+        <value>Este caràcter pot no ser acceptable en el nom d'una pàgina web, voleu guardar-lo de totes maneres?</value>
+      </msg-file-name-has-illegal-char>
+      <msg-file-name-has-space-char>
+        <value>Este nom de fitxer conté un espai, voleu guardar-lo de totes maneres?</value>
+      </msg-file-name-has-space-char>
+      <msg-file-name-start-illegal-char>
+        <value>Este caràcter pot no ser acceptable al principi del nom d'una pàgina web, voleu guardar-lo de totes maneres?</value>
+      </msg-file-name-start-illegal-char>
+      <msg-font>
+        <value>Tipus de lletra</value>
+      </msg-font>
+      <msg-height>
+        <value>Alçària: </value>
+      </msg-height>
+      <msg-hide>
+        <value>Oculta</value>
+      </msg-hide>
+      <msg-include-character-at-gap-front>
+        <value>He trobat el caràcter següent al principi del buit. Voleu incloure'l?</value>
+      </msg-include-character-at-gap-front>
+      <msg-insertion-must-be-selection>
+        <value>Açò és només un punt d'inserció, per favor seleccioneu almenys un caràcter</value>
+      </msg-insertion-must-be-selection>
+      <msg-interface-tab-fonts>
+        <value>Tipus de lletra</value>
+      </msg-interface-tab-fonts>
+      <msg-interface-tab-paths>
+        <value>Camins</value>
+      </msg-interface-tab-paths>
+      <msg-interface-tab-texts>
+        <value>Textos</value>
+      </msg-interface-tab-texts>
+      <msg-interface-text-section-exercise>
+        <value>Finetres de l'exercici</value>
+      </msg-interface-text-section-exercise>
+      <msg-interface-text-section-configure>
+        <value>Configura finestres</value>
+      </msg-interface-text-section-configure>
+      <msg-interface-text-section-misc>
+        <value>Altres finestres</value>
+      </msg-interface-text-section-misc>
+      <msg-interface-text-section-menus>
+        <value>Elements del menú</value>
+      </msg-interface-text-section-menus>
+      <msg-interface-text-section-messages>
+        <value>Missatges</value>
+      </msg-interface-text-section-messages>
+      <msg-item-skipped-no-correct-answer>
+        <value>Elements omesos perquè no tenen resposta correcta: </value>
+      </msg-item-skipped-no-correct-answer>
+      <msg-item-skipped-no-question>
+        <value>Elements omesos perquè no hi ha cap pregunta:</value>
+      </msg-item-skipped-no-question>
+      <msg-jcloze-autogap-plain-text-only>
+        <value>Buits automàtics funciona només si el text no conté buits.</value>
+      </msg-jcloze-autogap-plain-text-only>
+      <msg-jcloze-confirm-ungap-all>
+        <value>Esteu segur que voleu convertir TOTS els buits en text net?</value>
+      </msg-jcloze-confirm-ungap-all>
+      <msg-jcloze-insertion-not-in-plain-text>
+        <value>El punt d'inserció està dins d'un buit. Ha d'estar en text net.</value>
+      </msg-jcloze-insertion-not-in-plain-text>
+      <msg-jcloze-n-for-autogap>
+        <value>Es crearà un buit cada N paraules. Introduïu un número com a valor d'N.</value>
+      </msg-jcloze-n-for-autogap>
+      <msg-jcloze-no-gaps-yet>
+        <value>Per favor, creeu un buit abans d'intentar açò.</value>
+      </msg-jcloze-no-gaps-yet>
+      <msg-jcloze-no-plain-text-around-gap>
+        <value>Hau d'incloure almenys un caràcter de text net abans i després del vostre buit.</value>
+      </msg-jcloze-no-plain-text-around-gap>
+      <msg-jcloze-selection-contains-gap>
+        <value>La vostra selecció conté un altre buit o part d'este. Trieu només text per al buit.</value>
+      </msg-jcloze-selection-contains-gap>
+      <msg-jcloze-selection-contains-plain-text>
+        <value>Part de la selecció és text net. Feu clic en el buit que voleu eliminar.</value>
+      </msg-jcloze-selection-contains-plain-text>
+      <msg-jcloze-selection-contains-whitespace>
+        <value>La vostra selecció conté caràcters invisibles no permesos (com tab o enter). No inclogueu açò en un buit.</value>
+      </msg-jcloze-selection-contains-whitespace>
+      <msg-jcross-grid-letters-at-risk>
+        <value>Açò farà que s'eliminen algunes lletres de la quadrícula</value>
+      </msg-jcross-grid-letters-at-risk>
+      <msg-jcross-grid-letters-remove>
+        <value>Voleu eliminar lletres de la quadrícula?</value>
+      </msg-jcross-grid-letters-remove>
+      <msg-jcross-grid-size>
+        <value>Introduïu la grandària de la quadrícula:</value>
+      </msg-jcross-grid-size>
+      <msg-jcross-table-clue>
+        <value>Pista</value>
+      </msg-jcross-table-clue>
+      <msg-jcross-table-number>
+        <value>Num</value>
+      </msg-jcross-table-number>
+      <msg-jcross-table-word>
+        <value>Paraula</value>
+      </msg-jcross-table-word>
+      <msg-jcross-words-lack-definition>
+        <value>Les paraules següents no tenen definició:</value>
+      </msg-jcross-words-lack-definition>
+      <msg-jcross-words-not-placed>
+        <value>Paraules no situades:</value>
+      </msg-jcross-words-not-placed>
+      <msg-jcross-words-placed-number>
+        <value>Nombre de paraules situades:</value>
+      </msg-jcross-words-placed-number>
+      <msg-jmix-alternate-answer-has-word-not-in-main>
+        <value>Esta resposta alternativa conté alguna cosa que no es troba en la resposta principal:</value>
+      </msg-jmix-alternate-answer-has-word-not-in-main>
+      <msg-jmix-alternate-answer-missing-word-in-main>
+        <value>A esta resposta alternativa li falta un segment de la resposta principal:</value>
+      </msg-jmix-alternate-answer-missing-word-in-main>
+      <msg-jquiz-question-type-mc>
+        <value>Elecció múltiple</value>
+      </msg-jquiz-question-type-mc>
+      <msg-jquiz-question-type-text>
+        <value>Text</value>
+      </msg-jquiz-question-type-text>
+      <msg-jquiz-question-type-hybrid>
+        <value>Híbrida</value>
+      </msg-jquiz-question-type-hybrid>
+      <msg-jquiz-question-type-multi>
+        <value>Diverses correctes</value>
+      </msg-jquiz-question-type-multi>
+      <msg-left-side>
+        <value>esquerra</value>
+      </msg-left-side>
+      <msg-metadata-contributor>
+        <value>Contribuïdor</value>
+      </msg-metadata-contributor>
+      <msg-metadata-coverage>
+        <value>Abast</value>
+      </msg-metadata-coverage>
+      <msg-metadata-creator>
+        <value>Creador</value>
+      </msg-metadata-creator>
+      <msg-metadata-date>
+        <value>Data</value>
+      </msg-metadata-date>
+      <msg-metadata-description>
+        <value>Descripció</value>
+      </msg-metadata-description>
+      <msg-metadata-format>
+        <value>Format</value>
+      </msg-metadata-format>
+      <msg-metadata-identifier>
+        <value>Identificador</value>
+      </msg-metadata-identifier>
+      <msg-metadata-language>
+        <value>Idioma</value>
+      </msg-metadata-language>
+      <msg-metadata-publisher>
+        <value>Publicació</value>
+      </msg-metadata-publisher>
+      <msg-metadata-relation>
+        <value>Relació</value>
+      </msg-metadata-relation>
+      <msg-metadata-rights>
+        <value>Drets</value>
+      </msg-metadata-rights>
+      <msg-metadata-source>
+        <value>Font</value>
+      </msg-metadata-source>
+      <msg-metadata-subject>
+        <value>Tema</value>
+      </msg-metadata-subject>
+      <msg-metadata-title>
+        <value>Títol</value>
+      </msg-metadata-title>
+      <msg-metadata-type>
+        <value>Tipus</value>
+      </msg-metadata-type>
+      <msg-move-item-destination>
+        <value>Introduïu el número nou per a este element:</value>
+      </msg-move-item-destination>
+      <msg-move-item-source>
+        <value>Introduïu el número de l'element que voleu moure:</value>
+      </msg-move-item-source>
+      <msg-must-be-registered>
+        <value>Heu de registrar esta còpia de Hot Potatoes abans de poder dur a terme esta acció</value>
+      </msg-must-be-registered>
+      <msg-new-item-enter-number>
+        <value>Introduïu el número per a l'element nou:</value>
+      </msg-new-item-enter-number>
+      <msg-none>
+        <value>cap</value>
+      </msg-none>
+      <msg-not-a-valid-number>
+        <value>El valor introduït no és un número vàlid</value>
+      </msg-not-a-valid-number>
+      <msg-ok>
+        <value>D'acord</value>
+      </msg-ok>
+      <msg-ok-tooltip>
+        <value>Feu clic per a acceptar els canvis i aplicar-los a l'exercici</value>
+      </msg-ok-tooltip>
+      <msg-open>
+        <value>Obri</value>
+      </msg-open>
+      <msg-open-file-failed>
+        <value>No s'ha pogut obrir el fitxer:</value>
+      </msg-open-file-failed>
+      <msg-open-potato-to-see-change>
+        <value>Obri de nou esta creïlla per a veure els canvis</value>
+      </msg-open-potato-to-see-change>
+      <msg-open-tooltip>
+        <value>Feu clic per a triar un tipus adequat de fitxer per a obrir-lo</value>
+      </msg-open-tooltip>
+      <msg-parse-file-failed>
+        <value>No s'ha pogut desxifrar el fitxer:</value>
+      </msg-parse-file-failed>
+      <msg-player-flash>
+        <value>Flash</value>
+      </msg-player-flash>
+      <msg-player-qt>
+        <value>QuickTime</value>
+      </msg-player-qt>
+      <msg-player-real>
+        <value>RealPlayer</value>
+      </msg-player-real>
+      <msg-player-wmp>
+        <value>Windows Media Player</value>
+      </msg-player-wmp>
+      <msg-preview>
+        <value>Previsualització</value>
+      </msg-preview>
+      <msg-registration-failed>
+        <value>El registre NO ha tingut èxit. Intenteu-ho una altra vagada.</value>
+      </msg-registration-failed>
+      <msg-registration-success>
+        <value>El registre ha tingut èxit</value>
+      </msg-registration-success>
+      <msg-right-side>
+        <value>dreta</value>
+      </msg-right-side>
+      <msg-save-changes-to>
+        <value>Guarda els canvis en:</value>
+      </msg-save-changes-to>
+      <msg-save-data-first>
+        <value>Guarda les dades en un fitxer abans de fer açò</value>
+      </msg-save-data-first>
+      <msg-save-file-failed>
+        <value>No s'ha pogut trobar el fitxer:</value>
+      </msg-save-file-failed>
+      <msg-save>
+        <value>Guarda</value>
+      </msg-save>
+      <msg-save-as>
+        <value>Anomena i guarda...</value>
+      </msg-save-as>
+      <msg-select-before-insert>
+        <value>Feu clic on voleu que aparega el text i aleshores obri este diàleg una altra vegada</value>
+      </msg-select-before-insert>
+      <msg-show>
+        <value>Mostra</value>
+      </msg-show>
+      <msg-task-terminated>
+        <value>No es pot completar esta tasca</value>
+      </msg-task-terminated>
+      <msg-text>
+        <value>Text</value>
+      </msg-text>
+      <msg-url>
+        <value>URL</value>
+      </msg-url>
+      <msg-use-this-instead>
+        <value>S'utilitzarà açò al seu lloc:</value>
+      </msg-use-this-instead>
+      <msg-width>
+        <value>Amplària</value>
+      </msg-width>
+      <msg-scorm-package>
+      	 <value>Paquet SCORM</value>
+      </msg-scorm-package>
+      <msg-zip-package>
+      	 <value>Paquet SCORM</value>
+      </msg-zip-package>
+    </messages>
+  </java>
+</hotpot-interface-file>

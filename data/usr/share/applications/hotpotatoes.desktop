@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=HotPotatoes
+Comment=ODE to create interactive activities in HTML format such as crossword puzzles, pairing exercises, questions and answers and others
+Comment[es]=ODE de creación de actividades interactivas en formato HTML como por ejemplo crucigramas, ejercicios de emparejamiento, preguntas y respuestas y otros
+Comment[ca_ES@valencia]=ODE de creació de activitats interactives en format HTML com per exemple mots encreuats, exercicis de emparejament, preguntes i respostes i altres
+Comment[ca_ES.UTF-8@valencia]=ODE de creació de activitats interactives en format HTML com per exemple mots encreuats, exercicis de emparejament, preguntes i respostes i altres
+Exec=/usr/bin/hotpotatoes
+Terminal=false
+Icon=hotpotatoes
+Type=Application
+GenericName=HotPotatoes
+Keywords=crossword puzzles, crucigramas, encreuats,activities, actividades, activitats
+Categories=ODE-Creation;GTK
