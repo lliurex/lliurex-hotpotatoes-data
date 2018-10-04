@@ -1,3 +1,9 @@
+lliurex-hotpotatoes-data (0.32) bionic; urgency=medium
+
+  * Initial release for bionic
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Thu, 04 Oct 2018 08:57:29 +0200
+
 lliurex-hotpotatoes-data (0.22) xenial; urgency=medium
 
   * Removed deprecated locale
