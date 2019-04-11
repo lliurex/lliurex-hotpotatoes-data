@@ -1,3 +1,9 @@
+lliurex-hotpotatoes-data (0.33) bionic; urgency=medium
+
+  * Fixed desktop category
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Thu, 11 Apr 2019 09:55:51 +0200
+
 lliurex-hotpotatoes-data (0.32) bionic; urgency=medium
 
   * Initial release for bionic
