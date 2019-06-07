@@ -13,7 +13,7 @@
           <tooltip>Exercici nou</tooltip>
         </btn-new-data>
         <btn-open-data>
-          <tooltip>Obri exercici</tooltip>
+          <tooltip>Obri l'exercici</tooltip>
         </btn-open-data>
         <btn-save-data>
           <tooltip>Guarda dades</tooltip>
@@ -34,19 +34,19 @@
           <tooltip>Copia la selecció</tooltip>
         </btn-copy>
         <btn-paste>
-          <tooltip>Apegar la selecció</tooltip>
+          <tooltip>Apega la selecció</tooltip>
         </btn-paste>
         <btn-delete>
           <tooltip>Esborra la selecció</tooltip>
         </btn-delete>
         <btn-select-all>
-          <tooltip>Selecciona tot</tooltip>
+          <tooltip>Selecciona-ho tot</tooltip>
         </btn-select-all>
         <btn-insert-image>
-          <tooltip>Inserix una imatge</tooltip>
+          <tooltip>Insereix una imatge</tooltip>
         </btn-insert-image>
         <btn-insert-link>
-          <tooltip>Inserix un enllaç</tooltip>
+          <tooltip>Insereix un enllaç</tooltip>
         </btn-insert-link>
         <btn-show-config>
           <tooltip>Mostra la finestra de configuració</tooltip>
@@ -102,14 +102,14 @@
           <tooltip>Feu clic per a baixar en la llista de respostes</tooltip>
         </btn-answer-arrow-down>
         <ta-answer>
-          <tooltip>Introduïu ací una respuesta per a esta pregunta</tooltip>
+          <tooltip>Introduïu ací una resposta per a aquesta pregunta</tooltip>
         </ta-answer>
 		<ta-feedback>
-          <tooltip>Introduïu el text dels comentaris a esta resposta ací.</tooltip>
+          <tooltip>Introduïu el text dels comentaris a aquesta resposta ací.</tooltip>
         </ta-feedback>
         <cb-accept-as-correct>
-          <value>Accepta com a correct</value>
-          <tooltip>Feu clic per a acceptar esta resposta com a correcta</tooltip>
+          <value>Accepta com a correcta</value>
+          <tooltip>Feu clic per a acceptar aquesta resposta com a correcta</tooltip>
         </cb-accept-as-correct>
         <tf-pct>
           <tooltip>Introduïu el tant per cent de valoració (0 - 100)</tooltip>
@@ -122,7 +122,7 @@
         </btn-pct-arrow-down>
         <cb-include-in-mc>
           <value>Inclou-la en l'elecció múltiple</value>
-          <tooltip>Marqueu-la per a incloure esta resposta en elecció múltiple per a preguntes híbrides</tooltip>
+          <tooltip>Marqueu-la per a incloure aquesta resposta en elecció múltiple per a preguntes híbrides</tooltip>
         </cb-include-in-mc>
       </pnl-jquiz-specific>
       <pnl-jcloze-specific>
@@ -147,7 +147,7 @@
         </btn-jcloze-gap-auto>
         <btn-jcloze-un-gap-all>
           <value>Elimina els buits</value>
-          <tooltip>Feu clic per a eliminar tots els buits d'este exercici</tooltip>
+          <tooltip>Feu clic per a eliminar tots els buits d'aquest exercici</tooltip>
         </btn-jcloze-un-gap-all>
       </pnl-jcloze-specific>
       <wd-jcloze-more>
@@ -170,19 +170,19 @@
           <value>Paraula</value>
         </lbl-gap-word>
         <tf-gap-word>
-          <tooltip>Paraula principal de resposta a este buit</tooltip>
+          <tooltip>Paraula principal de resposta en aquest buit</tooltip>
         </tf-gap-word>
         <lbl-gap-clue>
           <value>Pista</value>
         </lbl-gap-clue>
         <tf-gap-clue>
-          <tooltip>Introduïu ací una pista per a este buit</tooltip>
+          <tooltip>Introduïu ací una pista per a aquest buit</tooltip>
         </tf-gap-clue>
         <btn-gap-alt-num-up>
-          <tooltip>Feu clic per a pujar en la llista de respostes alternatives a este buit</tooltip>
+          <tooltip>Feu clic per a pujar en la llista de respostes alternatives a aquest buit</tooltip>
         </btn-gap-alt-num-up>
         <btn-gap-alt-num-down>
-          <tooltip>Feu clic per a baixar en la llista de respostes alternatives a este buit</tooltip>
+          <tooltip>Feu clic per a baixar en la llista de respostes alternatives a aquest buit</tooltip>
         </btn-gap-alt-num-down>
         <lbl-gap-alt-title>
           <value>Paraules correctes alternatives:</value>
@@ -191,10 +191,10 @@
           <value>1</value>
         </lbl-gap-alt-num>
         <tf-gap-alt-num>
-          <tooltip>Número d'esta resposta alternativa</tooltip>
+          <tooltip>Número d'aquesta resposta alternativa</tooltip>
         </tf-gap-alt-num>
         <btn-jcloze-more-close>
-          <tooltip>Tanca esta finestra</tooltip>
+          <tooltip>Tanca aquesta finestra</tooltip>
         </btn-jcloze-more-close>
       </wd-jcloze-more>
       <pnl-jcross-main>
@@ -203,7 +203,7 @@
           <tooltip>Mostra la finestra de pistes</tooltip>
         </btn-jcross-show-clues>
         <btn-jcross-chars-up>
-          <tooltip>Feu clic per a moure els caràcters una fila més cap amunt</tooltip>
+          <tooltip>Feu clic per a moure els caràcters una fila més amunt</tooltip>
         </btn-jcross-chars-up>
         <btn-jcross-chars-left>
           <tooltip>Feu clic per a moure els caràcters una columna més cap a l'esquerra</tooltip>
@@ -226,18 +226,18 @@
           <value>Verticals</value>
         </lbl-jcross-down>
         <btn-jcross-more-close>
-          <tooltip>Tanca esta finestra</tooltip>
+          <tooltip>Tanca aquesta finestra</tooltip>
         </btn-jcross-more-close>
       </wd-jcross-more>
       <wd-jcross-auto-grid>
         <wd-jcross-auto-grid-title>
-          <value>JCross: crea una quadrícula a partir de paraules</value>
+          <value>JCross: crea una graella a partir de paraules</value>
         </wd-jcross-auto-grid-title>
         <lbl-auto-grid-max>
           <value>Nombre màxim de files i columnes: </value>
         </lbl-auto-grid-max>
         <tf-auto-grid-max>
-          <tooltip>Grandària màxima de la quadrícula</tooltip>
+          <tooltip>Grandària màxima de la graella</tooltip>
         </tf-auto-grid-max>
         <btn-auto-grid-max-up>
           <tooltip>Feu clic per a augmentar a la grandària màxima</tooltip>
@@ -252,25 +252,25 @@
           <tooltip>Introduïu cada paraula en una línia diferent</tooltip>
         </tf-auto-grid-word-list>
         <btn-auto-grid-make-grid>
-          <value>Forma una quadrícula</value>
-          <tooltip>Intenta crear una quadrícula a partir de la llista de paraules</tooltip>
+          <value>Forma una graella</value>
+          <tooltip>Intenta crear una graella a partir de la llista de paraules</tooltip>
         </btn-auto-grid-make-grid>
         <btn-auto-grid-stop>
-          <value>Para la creació de la quadrícula</value>
-          <tooltip>Deté l'intent de crear la quadrícula</tooltip>
+          <value>Para la creació de la graella</value>
+          <tooltip>Detín l'intent de crear la graella</tooltip>
         </btn-auto-grid-stop>
         <lbl-auto-grid-status>
-          <value>Procés de creació de la quadrícula:</value>
+          <value>Procés de creació de la graella:</value>
         </lbl-auto-grid-status>
         <tf-auto-grid-status>
-          <tooltip>Informe de l'estat de creació de la quadrícula</tooltip>
+          <tooltip>Informe de l'estat de creació de la graella</tooltip>
         </tf-auto-grid-status>
         <btn-jcross-auto-grid-apply>
           <value>Aplica</value>
-          <tooltip>Feu clic per a aplicar la quadrícula</tooltip>
+          <tooltip>Feu clic per a aplicar la graella</tooltip>
         </btn-jcross-auto-grid-apply>
         <btn-jcross-auto-grid-close>
-          <tooltip>Tanca esta finestra</tooltip>
+          <tooltip>Tanca aquesta finestra</tooltip>
         </btn-jcross-auto-grid-close>
       </wd-jcross-auto-grid>
       <pnl-jmatch-specific>
@@ -284,16 +284,16 @@
           <value>Dreta (elegibles)</value>
         </lbl-right-col-head>
         <lbl-fix-col-head>
-          <value>Fixar</value>
+          <value>Fixa</value>
         </lbl-fix-col-head>
         <ta-left>
-          <tooltip>Introduïu el valor de la columna de l'esquerra per a este parell</tooltip>
+          <tooltip>Introduïu el valor de la columna de l'esquerra per a aquest parell</tooltip>
         </ta-left>
         <ta-right>
-          <tooltip>Introduïu el valor de la columna de la dreta per a este parell</tooltip>
+          <tooltip>Introduïu el valor de la columna de la dreta per a aquest parell</tooltip>
         </ta-right>
         <cb-fix>
-          <tooltip>Marqueu per a fixar la posició de les dos parts d'este parell</tooltip>
+          <tooltip>Marqueu per a fixar la posició de les dues parts d'aquest parell</tooltip>
         </cb-fix>
         <lbl-right-default>
           <value>Valor predeterminat de la columna de la dreta:</value>
@@ -328,7 +328,7 @@
           <tooltip>Introduïu frases alternatives, la frase completa en una línia</tooltip>
         </ta-alt-sentence>
         <cb-alt-sentence-warn>
-          <value>Aviva'm si la frase alternativa no utilitza totes les paraules de la principal</value>
+          <value>Avisa'm si la frase alternativa no utilitza totes les paraules de la principal</value>
           <tooltip>Avisa'm si la frase alternativa no utilitza totes les paraules de la principal</tooltip>
         </cb-alt-sentence-warn>
       </pnl-jmix-main>
@@ -349,13 +349,13 @@
           <value>Indicador de correcte</value>
         </lbl-correct-indicator>
         <tf-correct-indicator>
-          <tooltip>Introduïu un o dos caràcters per a indicar correcte</tooltip>
+          <tooltip>Introduïu un o dos caràcters per a indicar que és correcte</tooltip>
         </tf-correct-indicator>
         <lbl-incorrect-indicator>
           <value>Indicador d'incorrecte</value>
         </lbl-incorrect-indicator>
         <tf-incorrect-indicator>
-          <tooltip>Introduïu un o dos caràcters per a indicar incorrecte</tooltip>
+          <tooltip>Introduïu un o dos caràcters per a indicar que és incorrecte</tooltip>
         </tf-incorrect-indicator>
         <lbl-your-score-is>
           <value>Indicador La teua puntuació és</value>
@@ -389,10 +389,10 @@
         </tf-next-correct-letter>
         <cb-next-exercise-caption>
           <value>Text en el botó Següent exercici</value>
-          <tooltip>Marqueu-lo per a incloure el botó per a passar a l'exercici següent</tooltip>
+          <tooltip>Marqueu-lo per a incloure-hi el botó per a passar a l'exercici següent</tooltip>
         </cb-next-exercise-caption>
         <tf-next-exercise-caption>
-          <tooltip>Introduïu el text per al botó que dóna accés a l'exercici següent</tooltip>
+          <tooltip>Introduïu el text per al botó que dona accés a l'exercici següent</tooltip>
         </tf-next-exercise-caption>
         <tf-next-exercise-caption-url>
           <tooltip>Introduïu el camí relatiu o URL absolut de la pàgina següent</tooltip>
@@ -402,7 +402,7 @@
         </btn-next-exercise-caption-url>
         <cb-index-caption>
           <value>Text en el botó Índex</value>
-          <tooltip>Marqueu-lo per a incloure un botó per a anar a la pàgina principal</tooltip>
+          <tooltip>Marqueu-lo per a incloure-hi un botó per a anar a la pàgina principal</tooltip>
         </cb-index-caption>
         <tf-index-caption>
           <tooltip>Introduïu el text del botó per a anar a la pàgina principal</tooltip>
@@ -434,7 +434,7 @@
         </tf-ok-caption>
         <cb-hint-caption>
           <value>Text del botó Ajuda</value>
-          <tooltip>Marqueu-lo per a incloure un botó que mostre l'ajuda</tooltip>
+          <tooltip>Marqueu-lo per a incloure-hi un botó que mostre l'ajuda</tooltip>
         </cb-hint-caption>
         <tf-hint-caption>
           <tooltip>Introduïu el text per al botó que mostra l'ajuda</tooltip>
@@ -535,7 +535,7 @@
         </btn-preview-appearance>
         <cb-include-timer>
           <value>Inclou un cronòmetre en l'exercici</value>
-          <tooltip>Marqueu-lo per a incloure un temporitzador en este exercici</tooltip>
+          <tooltip>Marqueu-lo per a incloure-hi un temporitzador en aquest exercici</tooltip>
         </cb-include-timer>
         <lbl-timer-minutes>
           <value>Minuts</value>
@@ -547,7 +547,7 @@
           <value>Segons</value>
         </lbl-timer-seconds>
         <combo-timer-seconds>
-          <tooltip>Trieu los segons del temporitzador</tooltip>
+          <tooltip>Trieu els segons del temporitzador</tooltip>
         </combo-timer-seconds>
         <lbl-times-up>
           <value>Missatge quan el temps s'acaba</value>
@@ -561,7 +561,7 @@
         </cb-separate-js-file>
         <cb-include-scorm-12>
           <value>Inclou funcions SCORM 1.2</value>
-          <tooltip>Seleccioneu inclou funcions SCORM 1.2 en la pàgina d'exercicis</tooltip>
+          <tooltip>Seleccioneu Inclou funcions SCORM 1.2 en la pàgina d'exercicis</tooltip>
         </cb-include-scorm-12>
         <cb-process-for-rtl>
           <value>Fa un processament especial dels scripts de dreta a esquerra</value>
@@ -569,17 +569,17 @@
         </cb-process-for-rtl>
         <cb-show-limited-questions>
           <value>Mostra un nombre limitat de preguntes</value>
-          <tooltip>Marqueu-lo perquè que no es mostren totes les preguntes d'un exercici cada vegada que es carrega la pàgina</tooltip>
+          <tooltip>Marqueu-lo perquè que no es mostren totes les preguntes d'un exercici cada vegada que es carregue la pàgina</tooltip>
         </cb-show-limited-questions>
         <tf-questions-to-show>
           <tooltip>Introduïu el nombre de preguntes a mostrar (major que 0)</tooltip>
         </tf-questions-to-show>
         <cb-shuffle-questions>
-          <value>Resol les preguntes cada vegada que es carrega la pàgina</value>
-          <tooltip>Marqueu-lo per a desordenar les preguntes cada vegada que es carrega l'exercici</tooltip>
+          <value>Resol les preguntes cada vegada que es carregue la pàgina</value>
+          <tooltip>Marqueu-lo per a desordenar les preguntes cada vegada que es carregue l'exercici</tooltip>
         </cb-shuffle-questions>
         <cb-case-sensitive>
-          <value>La comprovació de respostes distingix les majúscules</value>
+          <value>La comprovació de respostes distingeix les majúscules</value>
           <tooltip>Marqueu-lo perquè la comprovació de respostes distingisca majúscules de minúscules</tooltip>
         </cb-case-sensitive>
         <tf-short-answer-tries-on-hybrid-q>
@@ -591,38 +591,38 @@
         </cb-show-also-correct>
         <cb-include-keypad>
           <value>Inclou el teclat en la pàgina</value>
-          <tooltip>Marqueu-lo per a incloure un teclat amb caràcters especials que hàgeu especificat</tooltip>
+          <tooltip>Marqueu-lo per a incloure-hi un teclat amb caràcters especials que hàgeu especificat</tooltip>
         </cb-include-keypad>
         <lbl-keypad-characters>
-          <value>Inclou sempre estos caràcters en el teclat</value>
+          <value>Inclou sempre aquests caràcters en el teclat</value>
         </lbl-keypad-characters>
         <tf-keypad-characters>
-          <tooltip>Introduïu els caràcters que voleu que apareguen sempre en el teclat</tooltip>
+          <tooltip>Introduïu els caràcters que vulgueu que apareguen sempre en el teclat</tooltip>
         </tf-keypad-characters>
         <lbl-cgi-warning>
-          <value>No proporcionem ajuda per a açò</value>
+          <value>No es proporciona ajuda per a açò</value>
         </lbl-cgi-warning>
         <cb-include-cgi>
           <value>Subscripció al programa CGI</value>
           <tooltip>cb-include-cgi</tooltip>
         </cb-include-cgi>
         <lbl-formmail-url>
-          <value>URL del script CGI (FormMail):</value>
+          <value>URL de l'script CGI (FormMail):</value>
         </lbl-formmail-url>
         <tf-formmail-url>
-          <tooltip>URL absolut del FormMail o un altre programa CGI</tooltip>
+          <tooltip>URL absolut del FormMail o d'un altre programa CGI</tooltip>
         </tf-formmail-url>
         <lbl-email>
           <value>Adreça E-MailEMail on enviar els resultats:</value>
         </lbl-email>
         <tf-email>
-          <tooltip>Introduïu l'adreça de correu electrònic per al FormMail on envia els resultats</tooltip>
+          <tooltip>Introduïu l'adreça de correu electrònic per al FormMail on enviar els resultats</tooltip>
         </tf-email>
         <lbl-name-please>
           <value>Demana a l'alumne o l'alumna que introduïsca el seu nom:</value>
         </lbl-name-please>
         <tf-name-please>
-          <tooltip>Introduïu el text que pregunta a l'alumne o l'alumna el seu nom</tooltip>
+          <tooltip>Introduïu el text que pregunte a l'alumne o l'alumna el seu nom</tooltip>
         </tf-name-please>
         <lbl-user-string-1>
           <value>Text per a reemplaçar [userstring1]</value>
@@ -678,42 +678,42 @@
           <value>Respostes correctes</value>
         </lbl-correct-answers>
         <tf-correct-answers>
-          <tooltip>Text introductori per a les respostes correcte a esta pregunta</tooltip>
+          <tooltip>Text introductori per a les respostes correctes a aquesta pregunta</tooltip>
         </tf-correct-answers>
         <cb-show-answer-caption>
           <value>Text del botó Mostra la resposta</value>
           <tooltip>Marqueu-lo per a incloure un botó que permeta a l'alumnat visualitzar la resposta correcta</tooltip>
         </cb-show-answer-caption>
         <tf-show-answer-caption>
-          <tooltip>Introduïu el text del botó que mostra la resposta correcta de l'alumne o l'alumna</tooltip>
+          <tooltip>Introduïu el text del botó que mostre la resposta correcta de l'alumne o l'alumna</tooltip>
         </tf-show-answer-caption>
         <lbl-show-all-questions-caption>
           <value>Text per al botó Visualitza totes les preguntes</value>
         </lbl-show-all-questions-caption>
         <tf-show-all-questions-caption>
-          <tooltip>Introduïu el text per al botó que permet a l'alumnat visualitzar totes les preguntes</tooltip>
+          <tooltip>Introduïu el text per al botó que permeta a l'alumnat visualitzar totes les preguntes</tooltip>
         </tf-show-all-questions-caption>
         <lbl-show-one-by-one-caption>
           <value>Text per al botó Visualitza les preguntes d'una en una</value>
         </lbl-show-one-by-one-caption>
         <tf-show-one-by-one-caption>
-          <tooltip>Introduïu el text per al botó que permet visualitzar les preguntes d'una en una</tooltip>
+          <tooltip>Introduïu el text per al botó que permeta visualitzar les preguntes d'una en una</tooltip>
         </tf-show-one-by-one-caption>
         <lbl-next-q-caption>
           <value>Text per al botó Pregunta següent</value>
         </lbl-next-q-caption>
         <tf-next-q-caption>
-          <tooltip>Text per al botó que permet accedir a la pregunta següent</tooltip>
+          <tooltip>Text per al botó que permeta accedir a la pregunta següent</tooltip>
         </tf-next-q-caption>
         <lbl-last-q-caption>
           <value>Text per al botó Pregunta anterior</value>
         </lbl-last-q-caption>
         <tf-last-q-caption>
-          <tooltip>Text per al botó que permet accedir a la pregunta anterior</tooltip>
+          <tooltip>Text per al botó que permeta accedir a la pregunta anterior</tooltip>
         </tf-last-q-caption>
         <cb-shuffle-answers>
-          <value>Resol les respostes quan es carrega la pàgina</value>
-          <tooltip>Marqueu-lo per a desordenar les respostes a cada pregunta quan es carrega la pàgina</tooltip>
+          <value>Resol les respostes quan es carregue la pàgina</value>
+          <tooltip>Marqueu-lo per a desordenar les respostes a cada pregunta quan es carregue la pàgina</tooltip>
         </cb-shuffle-answers>
         <cb-continuous-scoring>
           <value>Mostra la puntuació després de respondre a cada pregunta</value>
@@ -742,14 +742,14 @@
         </tf-guesses-incorrect>
         <cb-clue-caption>
           <value>Text per al botó Pista</value>
-          <tooltip>Marqueu-lo per a incloure un botó per a obtindre una pista sobre este buit</tooltip>
+          <tooltip>Marqueu-lo per a incloure un botó per a obtindre una pista sobre aquest buit</tooltip>
         </cb-clue-caption>
         <tf-clue-caption>
           <tooltip>Introduïu el text del botó que mostrarà la pista</tooltip>
         </tf-clue-caption>
         <cb-use-drop-down-list>
           <value>Utilitza una llista desplegable</value>
-          <tooltip>Marqueu-lo per a utilitzar una llista desplegable en lloc de quadres de text en els buits d'este exercici</tooltip>
+          <tooltip>Marqueu-lo per a utilitzar una llista desplegable en lloc de quadres de text en els buits d'aquest exercici</tooltip>
         </cb-use-drop-down-list>
         <cb-include-word-list>
           <value>Inclou una llista de paraules</value>
@@ -773,14 +773,14 @@
           <tooltip>Introduïu l'encapçalament per a pistes de Verticals</tooltip>
         </tf-clues-down>
         <lbl-enter-caption>
-          <value>Text per al botó Introduïx</value>
+          <value>Text per al botó Introdueix</value>
         </lbl-enter-caption>
         <tf-enter-caption>
-          <tooltip>Introduïu el text del botó que inserix la resposta en la quadrícula</tooltip>
+          <tooltip>Introduïu el text del botó que insereix la resposta en la quadrícula</tooltip>
         </tf-enter-caption>
         <cb-include-clue-list>
           <value>Inclou una llista de pistes</value>
-          <tooltip>Marqueu-lo perquè s'incloga una llista amb les pistes davall de la quadrícula</tooltip>
+          <tooltip>Marqueu-lo perquè s'incloga una llista amb les pistes davall de la graella</tooltip>
         </cb-include-clue-list>
       </wd-config-jcross>
       <wd-config-jmatch>
@@ -799,7 +799,7 @@
       </wd-config-jmatch>
       <wd-config-jmix>
         <lbl-this-much-correct>
-          <value>Esta part de la teua resposta és correcta</value>
+          <value>Aquesta part de la teua resposta és correcta</value>
         </lbl-this-much-correct>
         <tf-this-much-correct>
           <tooltip>Text per a indicar quina part de la resposta donada és correcta</tooltip>
@@ -814,7 +814,7 @@
           <value>Feu clic per a afegir una paraula a la frase</value>
         </lbl-click-to-add>
         <tf-click-to-add>
-          <tooltip>Introduïu el text del botó que servix per a afegir la paraula seleccionada a la resposta</tooltip>
+          <tooltip>Introduïu el text del botó que serveix per a afegir la paraula seleccionada a la resposta</tooltip>
         </tf-click-to-add>
         <tf-show-also-correct>
           <tooltip>Text que indica qualsevol resposta correcta alternativa</tooltip>
@@ -911,7 +911,7 @@
           <tooltip>Guarda els canvis dels camins en l'actual fitxer de preferències</tooltip>
         </btn-choose-paths-save>
         <btn-choose-paths-close-window>
-          <tooltip>Tanca esta finestra</tooltip>
+          <tooltip>Tanca aquesta finestra</tooltip>
         </btn-choose-paths-close-window>
       </wd-choose-paths>
       <wd-insert-image>
@@ -966,7 +966,7 @@
           <tooltip>Feu clic per a inserir l'html de la imatge en el quadre de text</tooltip>
         </btn-insert-image-ok>
         <btn-insert-image-cancel>
-          <tooltip>Feu clic per a tancar esta finestra</tooltip>
+          <tooltip>Feu clic per a tancar aquesta finestra</tooltip>
         </btn-insert-image-cancel>
       </wd-insert-image>
       <wd-insert-link>
@@ -993,7 +993,7 @@
           <tooltip>Feu clic per a inserir l'html de l'enllaç en el quadre de text</tooltip>
         </btn-insert-link-ok>
         <btn-insert-image-cancel>
-          <tooltip>Feu clic per a tancar esta finestra</tooltip>
+          <tooltip>Feu clic per a tancar aquesta finestra</tooltip>
         </btn-insert-image-cancel>
       </wd-insert-link>
       <wd-insert-object>
@@ -1034,8 +1034,8 @@
           <tooltip>Quarta elecció per al reproductor multimèdia</tooltip>
         </cmb-insert-object-player4>
         <cb-insert-object-plain-link>
-          <value>Inclou un enllaç pla al archivo multimedia</value>
-          <tooltip>Marqueu-lo per a incloure un enllaç pla al fitxer multimèdia</tooltip>
+          <value>Inclou un enllaç pla al fitxer multimèdia</value>
+          <tooltip>Marqueu-lo per a incloure-hi un enllaç pla al fitxer multimèdia</tooltip>
         </cb-insert-object-plain-link>
         <tf-insert-object-plain-link>
           <tooltip>Introduïu text que actue com a enllaç al fitxer multimèdia</tooltip>
@@ -1044,7 +1044,7 @@
           <tooltip>Feu clic per a introduir l'html de l'objecte multimèdia en el quadre de text</tooltip>
         </btn-insert-object-ok>
         <btn-insert-object-cancel>
-          <tooltip>Feu clic per a tancar esta finestra</tooltip>
+          <tooltip>Feu clic per a tancar aquesta finestra</tooltip>
         </btn-insert-object-cancel>
       </wd-insert-object>
       <wd-insert-table>
@@ -1085,10 +1085,10 @@
           <tooltip>Introduïu l'amplària de la taula (en blanc = amplària completa)</tooltip>
         </tf-insert-table-width>
         <btn-insert-table-ok>
-          <tooltip>Fau clic per a introduir l'html de la taula en el quadre de text</tooltip>
+          <tooltip>Feu clic per a introduir l'html de la taula en el quadre de text</tooltip>
         </btn-insert-table-ok>
         <btn-insert-table-cancel>
-          <tooltip>Feu clic per a tancar esta finestra</tooltip>
+          <tooltip>Feu clic per a tancar aquesta finestra</tooltip>
         </btn-insert-table-cancel>
       </wd-insert-table>
       <wd-change-interface>
@@ -1105,7 +1105,7 @@
           <value>Valor desitjat:</value>
         </lbl-interface-font-desired>
         <tf-interface-font-desired>
-          <tooltip>Introduïu el tipus de lletra que voleu per als elements de la interfície</tooltip>
+          <tooltip>Introduïu el tipus de lletra que vulgueu per als elements de la interfície</tooltip>
         </tf-interface-font-desired>
         <btn-interface-font>
           <tooltip>Feu clic per a triar el tipus de lletra dels elements de la interfície</tooltip>
@@ -1134,7 +1134,7 @@
         </btn-apply-interface-change>
         <btn-close-interface-window>
           <value>Tanca</value>
-          <tooltip>Tanca esta finestra</tooltip>
+          <tooltip>Tanca aquesta finestra</tooltip>
         </btn-close-interface-window>
         <lbl-paths-source-folder>
           <value>Carpeta font</value>
@@ -1143,16 +1143,16 @@
           <value>Valor actual:</value>
         </lbl-paths-source-folder-current>
         <tf-paths-source-folder-current>
-          <tooltip>Camí actual de la carpeta font (source) d'esta creïlla</tooltip>
+          <tooltip>Camí actual de la carpeta font (source) d'aquesta creïlla</tooltip>
         </tf-paths-source-folder-current>
         <lbl-paths-source-folder-desired>
           <value>Valor desitjat:</value>
         </lbl-paths-source-folder-desired>
         <tf-paths-source-folder-desired>
-          <tooltip>Introduïu el camí desitjat a la carpeta font (source) d'esta creïlla</tooltip>
+          <tooltip>Introduïu el camí desitjat a la carpeta font (source) d'aquesta creïlla</tooltip>
         </tf-paths-source-folder-desired>
         <btn-paths-source-folder>
-          <tooltip>Feu clic per a triar el camí de la carpeta font (source) d'esta creïlla</tooltip>
+          <tooltip>Feu clic per a triar el camí de la carpeta font (source) d'aquesta creïlla</tooltip>
         </btn-paths-source-folder>
         <btn-paths-source-folder-use-default>
           <value>Utilitza la carpeta predeterminada</value>
@@ -1164,16 +1164,16 @@
           <value>Valor actual:</value>
         </lbl-paths-config-file-current>
         <tf-paths-config-file-current>
-          <tooltip>Camí del fitxer de configuració actual d'esta creïlla</tooltip>
+          <tooltip>Camí del fitxer de configuració actual d'aquesta creïlla</tooltip>
         </tf-paths-config-file-current>
         <lbl-paths-config-file-desired>
           <value>Valor desitjat:</value>
         </lbl-paths-config-file-desired>
         <tf-paths-config-file-desired>
-          <tooltip>Introduïu el camí del fitxer de configuració que voleu per a esta creïlla</tooltip>
+          <tooltip>Introduïu el camí del fitxer de configuració que voleu per a aquesta creïlla</tooltip>
         </tf-paths-config-file-desired>
         <btn-paths-config-file>
-          <tooltip>Feu clic per a triar el camí del fitxer de configuració d'esta creïlla</tooltip>
+          <tooltip>Feu clic per a triar el camí del fitxer de configuració d'aquesta creïlla</tooltip>
         </btn-paths-config-file>
         <lbl-paths-interface-file>
           <value>Fitxer de la interfície</value>
@@ -1182,16 +1182,16 @@
           <value>Valor actual:</value>
         </lbl-paths-interface-file-current>
         <tf-paths-interface-file-current>
-          <tooltip>Camí de l'actual fitxer de la interfície d'esta creïlla</tooltip>
+          <tooltip>Camí de l'actual fitxer de la interfície d'aquesta creïlla</tooltip>
         </tf-paths-interface-file-current>
         <lbl-paths-interface-file-desired>
           <value>Valor desitjat:</value>
         </lbl-paths-interface-file-desired>
         <tf-paths-interface-file-desired>
-          <tooltip>Introduïu el camí del fitxer de la interfície que voleu per a esta creïlla</tooltip>
+          <tooltip>Introduïu el camí del fitxer de la interfície que voleu per a aquesta creïlla</tooltip>
         </tf-paths-interface-file-desired>
         <btn-paths-interface-file>
-          <tooltip>Feu clic per a triar el camí del fitxer de la interfície per a esta creïlla</tooltip>
+          <tooltip>Feu clic per a triar el camí del fitxer de la interfície per a aquesta creïlla</tooltip>
         </btn-paths-interface-file>
         <btn-paths-interface-file-use-default>
           <value>Utilitza els valors de la interfície predeterminats (anglés)</value>
@@ -1210,32 +1210,32 @@
           <value>Textos de l'element seleccionat</value>
         </lbl-interface-texts-inputs>
         <lbl-interface-text-current>
-          <value>Text actual d'este element:</value>
+          <value>Text actual d'aquest element:</value>
         </lbl-interface-text-current>
         <tf-interface-text-current>
-          <tooltip>Valor actual del text d'este element</tooltip>
+          <tooltip>Valor actual del text d'aquest element</tooltip>
         </tf-interface-text-current>
         <lbl-interface-text-desired>
-          <value>Text desitjat per a este element:</value>
+          <value>Text desitjat per a aquest element:</value>
         </lbl-interface-text-desired>
         <tf-interface-text-desired>
-          <tooltip>Introduïu el text que voleu per a este element</tooltip>
+          <tooltip>Introduïu el text que voleu per a aquest element</tooltip>
         </tf-interface-text-desired>
         <lbl-interface-tooltip-current>
-          <value>Ajuda actual d'este element:</value>
+          <value>Ajuda actual d'aquest element:</value>
         </lbl-interface-tooltip-current>
         <tf-interface-tooltip-current>
-          <tooltip>Valor actual del text d'ajuda per a este element</tooltip>
+          <tooltip>Valor actual del text d'ajuda per a aquest element</tooltip>
         </tf-interface-tooltip-current>
         <lbl-interface-tooltip-desired>
-          <value>Text d'ajuda que voleu per a este element:</value>
+          <value>Text d'ajuda que voleu per a aquest element:</value>
         </lbl-interface-tooltip-desired>
         <tf-interface-tooltip-desired>
-          <tooltip>Introduïu el text d'ajuda que voleu per a este element</tooltip>
+          <tooltip>Introduïu el text d'ajuda que voleu per a aquest element</tooltip>
         </tf-interface-tooltip-desired>
         <btn-open-interface-file>
           <value>Obri</value>
-          <tooltip>Feu clic per a obrir un fitxer d'interfície i llegir-lo en esta finestra</tooltip>
+          <tooltip>Feu clic per a obrir un fitxer d'interfície i llegir-lo en aquesta finestra</tooltip>
         </btn-open-interface-file>
         <btn-save-interface-file>
           <value>Guarda</value>
@@ -1267,13 +1267,13 @@
           <value>Text de lectura:</value>
         </lbl-reading-text>
         <ta-reading-text>
-          <tooltip>Introduïu el texto html per a la lectura</tooltip>
+          <tooltip>Introduïu el text html per a la lectura</tooltip>
         </ta-reading-text>
         <btn-reading-ok>
           <tooltip>Feu clic per a acceptar els canvis</tooltip>
         </btn-reading-ok>
         <btn-reading-cancel>
-          <tooltip>Feu clic per a tancar esta finestra</tooltip>
+          <tooltip>Feu clic per a tancar aquesta finestra</tooltip>
         </btn-reading-cancel>
       </wd-reading-text>
       <wd-metadata>
@@ -1284,37 +1284,37 @@
           <value>Llista d'elements de Dublin Core metadata</value>
         </lbl-metadata-list-of-elements>
         <cmb-metadata-list-of-elements>
-          <tooltip>Trieu un element d'esta llista</tooltip>
+          <tooltip>Trieu un element d'aquesta llista</tooltip>
         </cmb-metadata-list-of-elements>
         <lbl-metadata-instance>
-          <value>Aparició d'este element:</value>
+          <value>Aparició d'aquest element:</value>
         </lbl-metadata-instance>
         <tf-metadata-instance>
-          <tooltip>Aparició d'este element metadades</tooltip>
+          <tooltip>Aparició d'aquest element metadades</tooltip>
         </tf-metadata-instance>
         <btn-metadata-instance-up-arrow>
-          <tooltip>Feu clic per a pujar en la llista d'aparicions d'este element</tooltip>
+          <tooltip>Feu clic per a pujar en la llista d'aparicions d'aquest element</tooltip>
         </btn-metadata-instance-up-arrow>
         <btn-metadata-instance-down-arrow>
-          <tooltip>Feu clic per a baixar en la llista d'aparicions d'este element</tooltip>
+          <tooltip>Feu clic per a baixar en la llista d'aparicions d'aquest element</tooltip>
         </btn-metadata-instance-down-arrow>
         <lbl-metadata-value-text>
-          <value>Text d'esta aparició d'este element:</value>
+          <value>Text d'aquesta aparició d'aquest element:</value>
         </lbl-metadata-value-text>
         <ta-metadata-text-value>
-          <tooltip>Introduïu el text per a esta aparició d'este element metadades</tooltip>
+          <tooltip>Introduïu el text per a aquesta aparició d'aquest element metadades</tooltip>
         </ta-metadata-text-value>
         <btn-metadata-add>
           <value>Afig</value>
-          <tooltip>Feu clic per a afegir esta aparició a este element</tooltip>
+          <tooltip>Feu clic per a afegir aquesta aparició a aquest element</tooltip>
         </btn-metadata-add>
         <btn-metadata-delete>
           <value>Elimina</value>
-          <tooltip>Feu clic per a eliminar esta aparició d'este element</tooltip>
+          <tooltip>Feu clic per a eliminar aquesta aparició d'aquest element</tooltip>
         </btn-metadata-delete>
         <btn-metadata-done>
           <value>Fet</value>
-          <tooltip>Feu clic per a guardar els canvis i tancar esta finestra</tooltip>
+          <tooltip>Feu clic per a guardar els canvis i tancar aquesta finestra</tooltip>
         </btn-metadata-done>
       </wd-metadata>
       <wd-register-user>
@@ -1335,10 +1335,10 @@
         </tf-reg-key-to-register>
         <btn-register-user>
           <value>Registra</value>
-          <tooltip>Feu clic per a intentar registrar-vos amb este nom i clau</tooltip>
+          <tooltip>Feu clic per a intentar registrar-vos amb aquest nom i clau</tooltip>
         </btn-register-user>
         <btn-register-user-close-window>
-          <tooltip>Feu clic per a tancar esta finestra</tooltip>
+          <tooltip>Feu clic per a tancar aquesta finestra</tooltip>
         </btn-register-user-close-window>
       </wd-register-user>
 	  <wd-masher-main>
@@ -1419,7 +1419,7 @@
           <tooltip></tooltip>
         </tf-masher-unit-index-filename>
         <btn-masher-build-unit>
-          <value>Construïx la unitat</value>
+          <value>Construeix la unitat</value>
           <tooltip></tooltip>
         </btn-masher-build-unit>
       </wd-masher-main>
@@ -1476,28 +1476,28 @@
     <menus>
       <menubar-shared-main>
         <menu-item-create-v6-page-dragdrop>
-          <value>Crea una pàgina d'Arrossega i deixa anar</value>
-          <tooltip>Trieu crea un exercici del tipus arrossega i deixa anar</tooltip>
+          <value>Crea una pàgina d'Arrossegueu i deixeu anar</value>
+          <tooltip>Trieu Crea un exercici del tipus arrossegueu i deixeu anar</tooltip>
         </menu-item-create-v6-page-dragdrop>
         <menu-item-create-v6-page-text>
           <value>Crea un fitxer de només-text</value>
-          <tooltip>Trieu crea un fitxer de text pla per a les preguntes i respostes</tooltip>
+          <tooltip>Trieu Crea un fitxer de text pla per a les preguntes i respostes</tooltip>
         </menu-item-create-v6-page-text>
         <menu-item-delete-item>
           <value>Elimina l'element...</value>
           <tooltip>Seleccioneu l'element a eliminar de l'exercici</tooltip>
         </menu-item-delete-item>
         <menu-item-insert-item>
-          <value>Inserix un element...</value>
-          <tooltip>Seleccioneu on inserir l'element nou en este exercici</tooltip>
+          <value>Insereix un element...</value>
+          <tooltip>Seleccioneu on inserir l'element nou en aquest exercici</tooltip>
         </menu-item-insert-item>
         <menu-item-move-item>
-          <value>Moure un element...</value>
+          <value>Mou un element...</value>
           <tooltip>Seleciona l'element a moure en l'exercici</tooltip>
         </menu-item-move-item>
         <menu-item-shuffle-items>
           <value>Mescla elements</value>
-          <tooltip>Mescla els elements d'este exercici</tooltip>
+          <tooltip>Mescla els elements d'aquest exercici</tooltip>
         </menu-item-shuffle-items>
         <menu-file>
           <value>Fitxer</value>
@@ -1513,7 +1513,7 @@
         </menu-item-open-ex>
         <menu-item-save-ex>
           <value>Guarda el fitxer</value>
-          <tooltip>Guarda dades en un fitxer de dades per a esta creïlla</tooltip>
+          <tooltip>Guarda dades en un fitxer de dades per a aquesta creïlla</tooltip>
         </menu-item-save-ex>
         <menu-item-save-as-ex>
           <value>Guarda el fitxer com a...</value>
@@ -1521,7 +1521,7 @@
         </menu-item-save-as-ex>
         <menu-recent>
           <value>Fitxers recents</value>
-          <tooltip>Llista de fitxers guardats recentment per a esta creïlla</tooltip>
+          <tooltip>Llista de fitxers guardats recentment per a aquesta creïlla</tooltip>
         </menu-recent>
         <menu-item-metadata>
           <value>Edita Dublin Core Metadata</value>
@@ -1529,7 +1529,7 @@
         </menu-item-metadata>
         <menu-item-reading-text>
           <value>Text de lectura...</value>
-          <tooltip>Inclou un text de lectura en este exercici</tooltip>
+          <tooltip>Inclou un text de lectura en aquest exercici</tooltip>
         </menu-item-reading-text>
         <menu-export>
           <value>Exporta</value>
@@ -1537,11 +1537,11 @@
         </menu-export>
         <menu-item-create-v6-page-standard>
           <value>Crea una pàgina V6 estàndard</value>
-          <tooltip>Crea una pàgina estàndard amb este exercici</tooltip>
+          <tooltip>Crea una pàgina estàndard amb aquest exercici</tooltip>
         </menu-item-create-v6-page-standard>
         <menu-item-exit>
           <value>Ix</value>
-          <tooltip>Tanca esta creïlla</tooltip>
+          <tooltip>Tanca aquesta creïlla</tooltip>
         </menu-item-exit>
         <menu-edit>
           <value>Edició</value>
@@ -1560,32 +1560,32 @@
           <tooltip>Apega el text del porta-retalls en el punt d'inserció</tooltip>
         </menu-item-paste>
         <menu-item-delete>
-          <value>Suprimix</value>
-          <tooltip>Suprimix el text seleccionat</tooltip>
+          <value>Suprimeix</value>
+          <tooltip>Suprimeix el text seleccionat</tooltip>
         </menu-item-delete>
         <menu-item-select-all>
           <value>Selecciona-ho tot</value>
           <tooltip>Selecciona tot el text</tooltip>
         </menu-item-select-all>
         <menu-insert>
-          <value>Inserix</value>
+          <value>Insereix</value>
           <tooltip>Elements que permeten inserir blocs d'etiquetes HTML</tooltip>
         </menu-insert>
         <menu-item-insert-image>
-          <value>Inserix una imatge</value>
-          <tooltip>Inserix codi HTML per a una imatge</tooltip>
+          <value>Insereix una imatge</value>
+          <tooltip>Insereix codi HTML per a una imatge</tooltip>
         </menu-item-insert-image>
         <menu-item-insert-link>
-          <value>Inserix enllaç a un fitxer</value>
-          <tooltip>Inserix codi HTML per a un enllaç a un fitxer</tooltip>
+          <value>Insereix un enllaç en un fitxer</value>
+          <tooltip>Inserix codi HTML per a un enllaç en un fitxer</tooltip>
         </menu-item-insert-link>
         <menu-item-insert-table>
-          <value>Inserix una taula</value>
-          <tooltip>Inserix codi HTML per a una taula</tooltip>
+          <value>Insereix una taula</value>
+          <tooltip>Insereix codi HTML per a una taula</tooltip>
         </menu-item-insert-table>
         <menu-item-insert-object>
-          <value>Inserix un objecte multimèdia</value>
-          <tooltip>Inserix codi HTML per a un objecte multimèdia</tooltip>
+          <value>Insereix un objecte multimèdia</value>
+          <tooltip>Insereix un codi HTML per a un objecte multimèdia</tooltip>
         </menu-item-insert-object>
         <menu-manage>
           <value>Gestiona</value>
@@ -1605,7 +1605,7 @@
         </menu-item-open-config>
         <menu-item-open-interface>
           <value>Obri la finestra de canvi d'interfície</value>
-          <tooltip>Canvia la interfície d'esta creïlla (tipus de lletra, etc.)</tooltip>
+          <tooltip>Canvia la interfície d'aquesta creïlla (tipus de lletra, etc.)</tooltip>
         </menu-item-open-interface>
         <menu-help>
           <value>Ajuda</value>
@@ -1616,11 +1616,11 @@
           <tooltip>Visualitza l'ajuda que porta el Hot Potatoes</tooltip>
         </menu-item-help-contents>
        <menu-item-help-tutorial>
-          <value>Tutoriales</value>
-          <tooltip>Instrucciones detalladas del uso de Hot Potatoes</tooltip>
+          <value>Tutorials</value>
+          <tooltip>Instruccions detallades de l'ús de Hot Potatoes</tooltip>
         </menu-item-help-tutorial>
         <menu-item-feature-list>
-          <value>Llista de noves característiques i errors d'esta versió</value>
+          <value>Llista de noves característiques i errors d'aquesta versió</value>
           <tooltip/>
         </menu-item-feature-list>
         <menu-item-faq>
@@ -1637,22 +1637,22 @@
         </menu-item-help-email>
         <menu-item-register>
           <value>Registre</value>
-          <tooltip>Introduïu el nom d'usuari i la clau per a registrar esta còpia del Hot Potatoes</tooltip>
+          <tooltip>Introduïu el nom d'usuari i la clau per a registrar aquesta còpia del Hot Potatoes</tooltip>
         </menu-item-register>
         <menu-item-about>
           <value>Quant a</value>
           <tooltip>Visualitza el número de versió</tooltip>
         </menu-item-about>
+        <menu-item-show-tooltips>
+          <value>Mostra l'indicador de funció</value>
+          <tooltip>Si està marcat fa que el Hot Potatoes mostre els indicadors de funció quan el ratolí es troba damunt</tooltip>
+        </menu-item-show-tooltips>
       </menubar-shared-main>
       <menubar-chooser-main>
         <menu-item-exit-all>
           <value>Ix de totes les creïlles</value>
           <tooltip>Ix de totes les creïlles immediatament</tooltip>
         </menu-item-exit-all>
-        <menu-item-show-tooltips>
-          <value>Mostra l'indicador de funció</value>
-          <tooltip>Si està marcat fa que el Hot Potatoes mostre els indicadors de funció quan el ratolí es troba damunt</tooltip>
-        </menu-item-show-tooltips>
         <menu-item-choose-paths>
           <value>Configuració de camins de la Finestra del projecte</value>
           <tooltip>Tria els camins als fitxers importants de totes les creÏlles</tooltip>
@@ -1662,30 +1662,25 @@
           <tooltip>Restaura els valors per defecte on el Hot Potatoes busca els fitxers</tooltip>
         </menu-set-default-paths>
       </menubar-chooser-main>
-      <menubar-jcloze-main>
-        <menu-item-show-tooltips>
-          <value>Mostra indicadors de funció</value>
-          <tooltip>Si està marcat fa que el Hot Potatoes mostre els insdicadors de funció quan el ratolí es troba damunt</tooltip>
-        </menu-item-show-tooltips>
-      </menubar-jcloze-main>
+      <menubar-jcloze-main></menubar-jcloze-main>
       <menubar-jcross-main>
         <menu-item-resize-grid>
-          <value>Redimensiona la quadrícula...</value>
-          <tooltip>Canvia la grandària de la quadrícula</tooltip>
+          <value>Redimensiona la graella...</value>
+          <tooltip>Canvia la grandària de la graella</tooltip>
         </menu-item-resize-grid>
         <menu-item-auto-grid>
-          <value>Crea una quadrícula a partir d'una llista de paraules...</value>
-          <tooltip>Crea la quadrícula a partir d'una llista de paraules</tooltip>
+          <value>Crea una graella a partir d'una llista de paraules...</value>
+          <tooltip>Crea la graella a partir d'una llista de paraules</tooltip>
         </menu-item-auto-grid>
         <menu-item-case-sensitive-grid>
-          <value>La graella distingix majúscules i minúscules</value>
-          <tooltip>La graella distingix en els exercicis entre majúscules i minúscules</tooltip>
+          <value>La graella distingeix majúscules i minúscules</value>
+          <tooltip>La graella distingeix en els exercicis entre majúscules i minúscules</tooltip>
         </menu-item-case-sensitive-grid>
       </menubar-jcross-main>
       <menubar-jmatch-main>
         <menu-item-append-exercise>
           <value>Afig exercici...</value>
-          <tooltip>Afig un altre exercici al final d'este</tooltip>
+          <tooltip>Afig un altre exercici al final d'aquest</tooltip>
         </menu-item-append-exercise>
         <menu-item-create-v6-page-flashcard>
           <value>Crea una pàgina de targetes</value>
@@ -1696,8 +1691,8 @@
           <tooltip>Elimina un element específic de l'exercici</tooltip>
         </menu-item-delete-item>
         <menu-item-insert-item>
-          <value>Inserix un element...</value>
-          <tooltip>Inserix un nou element d'exercici en el lloc especificat</tooltip>
+          <value>Insereix un element...</value>
+          <tooltip>Insereix un nou element d'exercici en el lloc especificat</tooltip>
         </menu-item-insert-item>
         <menu-item-move-item>
           <value>Mou un element...</value>
@@ -1705,7 +1700,7 @@
         </menu-item-move-item>
         <menu-item-shuffle-items>
           <value>Resol elements</value>
-          <tooltip>Resol elements en esta creïlla</tooltip>
+          <tooltip>Resol elements en aquesta creïlla</tooltip>
         </menu-item-shuffle-items>
         <menu-item-switch-columns>
           <value>Intercanvia columnes</value>
@@ -1716,12 +1711,12 @@
 </menubar-jmix-main>
       <menubar-jquiz-main>
         <menu-beginner-advanced-ui>
-          <value>Fixa el mode interfície de l'usuari</value>
-          <tooltip>Mostra o oculta opcions més avançades</tooltip>
+          <value>Fixa el mode d'interfície de l'usuari</value>
+          <tooltip>Mostra o amaga opcions més avançades</tooltip>
         </menu-beginner-advanced-ui>
         <menu-item-beginner-ui>
           <value>Interfície simple</value>
-          <tooltip>Oculta les opcions avançades</tooltip>
+          <tooltip>Amaga les opcions avançades</tooltip>
         </menu-item-beginner-ui>
         <menu-item-advanced-ui>
           <value>Interfície avançada</value>
@@ -1787,11 +1782,11 @@
         </menu-options-masher>
         <menu-item-open-interface-masher>
           <value>Tria el fitxer d'interfície</value>
-          <tooltip>Utilitza este fitxer per a les interfícies</tooltip>
+          <tooltip>Utilitza aquest fitxer per a les interfícies</tooltip>
         </menu-item-open-interface-masher>
         <menu-item-register-masher>
           <value>Registra</value>
-          <tooltip>Servix per a introduir el vostre nom d'usuari i la clau de registre</tooltip>
+          <tooltip>Serveix per a introduir el vostre nom d'usuari i la clau de registre</tooltip>
         </menu-item-register-masher>
       </menubar-masher-main>
     </menus>
@@ -1821,7 +1816,7 @@
         <value>Puja a hotpotatoes.net</value>
       </msg-display-upload-to-hotpotnet>
       <msg-masher-output-type-dragdrop>
-        <value>Arrossega i deixa anar</value>
+        <value>Arrossegueu i deixeu anar</value>
       </msg-masher-output-type-dragdrop>
       <msg-masher-output-type-standard>
         <value>Estàndard</value>
@@ -1830,7 +1825,7 @@
         <value>Fitxer de projecte Masher</value>
       </msg-masher-file>
       <msg-masher-must-be-registered>
-        <value>Per favor, registreu esta còpia de Masher abans de realitzar esta acció</value>
+        <value>Registreu aquesta còpia de Masher abans de realitzar aquesta acció</value>
       </msg-masher-must-be-registered>
 
       <msg-exercise-created>
@@ -1885,13 +1880,13 @@
         <value>Feu clic per a ignorar els canvis proposats</value>
       </msg-cancel-tooltip>
       <msg-cant-find-config-file>
-        <value>No trobe el fitxer de configuració:</value>
+        <value>No s'ha trobat el fitxer de configuració:</value>
       </msg-cant-find-config-file>
       <msg-cant-find-source-file>
-        <value>No trobe els fitxers font (source):</value>
+        <value>No s'han trobat els fitxers font (source):</value>
       </msg-cant-find-source-file>
       <msg-cant-find-source-folder>
-        <value>No trobe la carpeta font (source):</value>
+        <value>No s'ha trobat la carpeta font (source):</value>
       </msg-cant-find-source-folder>
       <msg-caption>
         <value>Text</value>
@@ -1900,7 +1895,7 @@
         <value>centre</value>
       </msg-center>
       <msg-check-to-include-in-page>
-        <value>Marqueu este element per a incloure'l en l'exercici</value>
+        <value>Marqueu aquest element per a incloure'l en l'exercici</value>
       </msg-check-to-include-in-page>
       <msg-close>
         <value>Tanca</value>
@@ -1963,7 +1958,7 @@
         <value>Introduïu el número d'element a eliminar:</value>
       </msg-delete-item-enter-number>
       <msg-delete>
-        <value>Suprimix</value>
+        <value>Suprimeix</value>
       </msg-delete>
       <msg-desired-value>
         <value>Valor desitjat:</value>
@@ -1984,16 +1979,16 @@
         <value>Exercici</value>
       </msg-exercise>
       <msg-file-already-exists>
-        <value>Este fitxer ja existix:</value>
+        <value>Aquestfitxer ja existeix:</value>
       </msg-file-already-exists>
       <msg-file-name-has-illegal-char>
-        <value>Este caràcter pot no ser acceptable en el nom d'una pàgina web, voleu guardar-lo de totes maneres?</value>
+        <value>Aquest caràcter pot no ser acceptat en el nom d'una pàgina web, voleu guardar-lo de totes maneres?</value>
       </msg-file-name-has-illegal-char>
       <msg-file-name-has-space-char>
-        <value>Este nom de fitxer conté un espai, voleu guardar-lo de totes maneres?</value>
+        <value>Aquest nom de fitxer conté un espai, voleu guardar-lo de totes maneres?</value>
       </msg-file-name-has-space-char>
       <msg-file-name-start-illegal-char>
-        <value>Este caràcter pot no ser acceptable al principi del nom d'una pàgina web, voleu guardar-lo de totes maneres?</value>
+        <value>Aquest caràcter pot no ser acceptable al principi del nom d'una pàgina web, voleu guardar-lo de totes maneres?</value>
       </msg-file-name-start-illegal-char>
       <msg-font>
         <value>Tipus de lletra</value>
@@ -2002,13 +1997,13 @@
         <value>Alçària: </value>
       </msg-height>
       <msg-hide>
-        <value>Oculta</value>
+        <value>Amaga</value>
       </msg-hide>
       <msg-include-character-at-gap-front>
-        <value>He trobat el caràcter següent al principi del buit. Voleu incloure'l?</value>
+        <value>S'ha trobat el caràcter següent al principi del buit. Voleu incloure'l?</value>
       </msg-include-character-at-gap-front>
       <msg-insertion-must-be-selection>
-        <value>Açò és només un punt d'inserció, per favor seleccioneu almenys un caràcter</value>
+        <value>Açò és només un punt d'inserció, seleccioneu almenys un caràcter</value>
       </msg-insertion-must-be-selection>
       <msg-interface-tab-fonts>
         <value>Tipus de lletra</value>
@@ -2041,46 +2036,46 @@
         <value>Elements omesos perquè no hi ha cap pregunta:</value>
       </msg-item-skipped-no-question>
       <msg-jcloze-autogap-plain-text-only>
-        <value>Buits automàtics funciona només si el text no conté buits.</value>
+        <value>Buits automàtic funciona només si el text no conté buits.</value>
       </msg-jcloze-autogap-plain-text-only>
       <msg-jcloze-confirm-ungap-all>
-        <value>Esteu segur que voleu convertir TOTS els buits en text net?</value>
+        <value>Segur que voleu convertir TOTS els buits en text net?</value>
       </msg-jcloze-confirm-ungap-all>
       <msg-jcloze-insertion-not-in-plain-text>
-        <value>El punt d'inserció està dins d'un buit. Ha d'estar en text net.</value>
+        <value>El punt d'inserció està dins d'un buit. Ha d'estar en el text net.</value>
       </msg-jcloze-insertion-not-in-plain-text>
       <msg-jcloze-n-for-autogap>
         <value>Es crearà un buit cada N paraules. Introduïu un número com a valor d'N.</value>
       </msg-jcloze-n-for-autogap>
       <msg-jcloze-no-gaps-yet>
-        <value>Per favor, creeu un buit abans d'intentar açò.</value>
+        <value>Creeu un buit abans d'intentar açò.</value>
       </msg-jcloze-no-gaps-yet>
       <msg-jcloze-no-plain-text-around-gap>
-        <value>Hau d'incloure almenys un caràcter de text net abans i després del vostre buit.</value>
+        <value>Heu d'incloure almenys un caràcter de text net abans i després del vostre buit.</value>
       </msg-jcloze-no-plain-text-around-gap>
       <msg-jcloze-selection-contains-gap>
-        <value>La vostra selecció conté un altre buit o part d'este. Trieu només text per al buit.</value>
+        <value>La vostra selecció conté un altre buit o part d'aquest. Trieu només el text per al buit.</value>
       </msg-jcloze-selection-contains-gap>
       <msg-jcloze-selection-contains-plain-text>
         <value>Part de la selecció és text net. Feu clic en el buit que voleu eliminar.</value>
       </msg-jcloze-selection-contains-plain-text>
       <msg-jcloze-selection-contains-whitespace>
-        <value>La vostra selecció conté caràcters invisibles no permesos (com tab o enter). No inclogueu açò en un buit.</value>
+        <value>La vostra selecció conté caràcters invisibles no permesos (com tab o retorn). No inclogueu açò en un buit.</value>
       </msg-jcloze-selection-contains-whitespace>
       <msg-jcross-grid-letters-at-risk>
-        <value>Açò farà que s'eliminen algunes lletres de la quadrícula</value>
+        <value>Açò farà que s'eliminen algunes lletres de la graella</value>
       </msg-jcross-grid-letters-at-risk>
       <msg-jcross-grid-letters-remove>
-        <value>Voleu eliminar lletres de la quadrícula?</value>
+        <value>Voleu eliminar lletres de la graella?</value>
       </msg-jcross-grid-letters-remove>
       <msg-jcross-grid-size>
-        <value>Introduïu la grandària de la quadrícula:</value>
+        <value>Introduïu la grandària de la graella:</value>
       </msg-jcross-grid-size>
       <msg-jcross-table-clue>
         <value>Pista</value>
       </msg-jcross-table-clue>
       <msg-jcross-table-number>
-        <value>Num</value>
+        <value>Núm</value>
       </msg-jcross-table-number>
       <msg-jcross-table-word>
         <value>Paraula</value>
@@ -2095,10 +2090,10 @@
         <value>Nombre de paraules situades:</value>
       </msg-jcross-words-placed-number>
       <msg-jmix-alternate-answer-has-word-not-in-main>
-        <value>Esta resposta alternativa conté alguna cosa que no es troba en la resposta principal:</value>
+        <value>Aquesta resposta alternativa conté alguna cosa que no es troba en la resposta principal:</value>
       </msg-jmix-alternate-answer-has-word-not-in-main>
       <msg-jmix-alternate-answer-missing-word-in-main>
-        <value>A esta resposta alternativa li falta un segment de la resposta principal:</value>
+        <value>A aquesta resposta alternativa li falta un segment de la resposta principal:</value>
       </msg-jmix-alternate-answer-missing-word-in-main>
       <msg-jquiz-question-type-mc>
         <value>Elecció múltiple</value>
@@ -2161,13 +2156,13 @@
         <value>Tipus</value>
       </msg-metadata-type>
       <msg-move-item-destination>
-        <value>Introduïu el número nou per a este element:</value>
+        <value>Introduïu el número nou per a aquest element:</value>
       </msg-move-item-destination>
       <msg-move-item-source>
         <value>Introduïu el número de l'element que voleu moure:</value>
       </msg-move-item-source>
       <msg-must-be-registered>
-        <value>Heu de registrar esta còpia de Hot Potatoes abans de poder dur a terme esta acció</value>
+        <value>Heu de registrar aquesta còpia de Hot Potatoes abans de poder dur a terme aquesta acció</value>
       </msg-must-be-registered>
       <msg-new-item-enter-number>
         <value>Introduïu el número per a l'element nou:</value>
@@ -2191,7 +2186,7 @@
         <value>No s'ha pogut obrir el fitxer:</value>
       </msg-open-file-failed>
       <msg-open-potato-to-see-change>
-        <value>Obri de nou esta creïlla per a veure els canvis</value>
+        <value>Obri de nou aquesta creïlla per a veure els canvis</value>
       </msg-open-potato-to-see-change>
       <msg-open-tooltip>
         <value>Feu clic per a triar un tipus adequat de fitxer per a obrir-lo</value>
@@ -2215,7 +2210,7 @@
         <value>Previsualització</value>
       </msg-preview>
       <msg-registration-failed>
-        <value>El registre NO ha tingut èxit. Intenteu-ho una altra vagada.</value>
+        <value>El registre NO ha tingut èxit. Intenteu-ho una altra vegada.</value>
       </msg-registration-failed>
       <msg-registration-success>
         <value>El registre ha tingut èxit</value>
@@ -2239,13 +2234,13 @@
         <value>Anomena i guarda...</value>
       </msg-save-as>
       <msg-select-before-insert>
-        <value>Feu clic on voleu que aparega el text i aleshores obri este diàleg una altra vegada</value>
+        <value>Feu clic on vulgueu que aparega el text i aleshores obriu aquest diàleg una altra vegada</value>
       </msg-select-before-insert>
       <msg-show>
         <value>Mostra</value>
       </msg-show>
       <msg-task-terminated>
-        <value>No es pot completar esta tasca</value>
+        <value>No es pot completar aquesta tasca</value>
       </msg-task-terminated>
       <msg-text>
         <value>Text</value>
